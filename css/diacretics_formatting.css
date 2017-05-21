@@ -1,0 +1,164 @@
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.1
+*/
+/* base.css, part of YUI's CSS Foundation */
+body {
+    font-family: "georgia", "times new roman", "sans-serif";
+    background-color: #A0A0A0;
+}
+
+a:link {
+  color:#000000;
+  text-decoration:none;
+}
+a:visited {
+  color:#000000;
+  text-decoration:none;
+}
+a:hover {
+  color:#FF3300;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* tool tips */
+
+span.link {
+	position: relative;
+}
+
+    span.link a span {
+    	display: none;
+}
+
+span.link a:hover {
+    	font-size: 99%;
+    	font-color: #000000;
+}
+
+span.link a:hover span { 
+    display: block; 
+	position: absolute; 
+	margin-top: +20px; 
+	margin-left: +90px; 
+	width: 150px; padding: 5px; 
+	z-index: 100; 
+	color: #000000; 
+	background: #FFFFAA; 
+	font: 12px "Georgia", sans-serif;
+	text-align: left; 
+	text-decoration: none;
+}
+
+p   {
+    /* font_family: "georgia", "times new roman", "sans-serif"; */
+    font-size: 100%
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "verdana", "helvetica", "arial", "serif";
+}
+
+h1   {
+	font-size:138.5%;  
+}
+h2 {
+	font-family: "verdana", "helvetica", "arial", "serif";
+	font-size:123.1%; 
+}
+h3 {
+	font-family: "verdana", "helvetica", "arial", "serif";
+	font-size:108%;  
+}
+h1,h2,h3 {
+	/* top & bottom margin based on font size */
+	margin:1em 0;
+}
+h1,h2,h3,h4,h5,h6,strong {
+	/*bringing boldness back to headers and the strong element*/
+	font-weight:bold; 
+}
+abbr,acronym {
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #000;
+	cursor:help;
+} 
+em {
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+blockquote,ul,ol,dl {
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+ol,ul,dl {
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+ol li {
+	/*giving OL's LIs generated numbers*/
+	list-style: decimal outside;	
+}
+ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style: disc outside;
+}
+dl dd {
+	/*giving UL's LIs generated numbers*/
+	margin-left:1em;
+}
+table {
+    border:0px;
+    margin:2px;
+    width:100%
+}
+
+th,td {
+	/*borders and padding to make the table readable*/
+	border:0px solid #000;
+	padding:.5em;
+    background-color:#D0D0D0;
+}
+th {
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+
+caption {
+	/*coordinated margin to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+p,fieldset,table,pre {
+	/*so things don't run into each other*/
+	margin-bottom:1em;
+}
+
+/* pretty tool tips */
+.tooltip {
+	display: inline;
+	position: relative;
+	border-radius: 5px;
+	bottom: 26px;
+	color: #ffffff;
+	content: attr(title);
+	left: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 220px;
+}
+
+.tooltip:hover:after {
+	background:	#030303;
+	background: rgba(0, 0, 0, 1);
+	
+
+/* setting a consistent width, 160px; 
+   control of type=file still not possible */
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
