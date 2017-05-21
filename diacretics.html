@@ -1,0 +1,144 @@
+﻿<html>
+    <head>
+        <title>Special Character Codes</title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="stylesheet" type="text/css" href="formatting.css">
+		<script language="javascript" type="text/javascript">
+			function get_table_cell(lettercode) {
+				var result;
+				if (lettercode == 'xxxx') {
+					return '<td>&nbsp;</td><td>&nbsp;</td>';
+				} else {
+					return '<td>&#' + lettercode + ';</td><td>' + lettercode + '</td>';
+				}
+			}
+
+			function write_single_col_table() {
+				var args = Array.prototype.slice.call(arguments);
+				var counter = 0;
+				// write header first
+				document.write('<tr><th colspan="2">' + args[0] + '</th></tr>');
+				// write codes
+				for (counter =1; counter < args.length; counter = counter + 1) {
+					document.write('<tr>' + get_table_cell(args[counter]) + '</tr>');
+				}
+				// add empty lines
+				document.write('<tr></tr><tr></tr><tr></tr>');
+			}
+		</script>
+    </head>
+    
+    <body style="background-image:url('keyboard.jpg');">
+        <div id="outer">
+            <h2>Special Character HTML codes</h2>
+			<p>Enter these codes as &#...; codes in your HTML documents. Can also be used as ALT+numpad keystrokes, with some exceptions (listed separately)</p>
+            <div class="widecol">
+                <table width="95%">
+                  <tr><th width="28%">&nbsp;</th><th width="12%">\</th><th width="12%">/</th><th width="12%">/\</th><th width="12%">~</th><th width="12%">"</th><th width="12%">o</th></tr>
+                  <tr><td>a</td><td>0224</td><td>0225</td><td>0226</td><td>0227</td><td>0228</td><td>0229</td></tr>                  
+                  <tr><td>e</td><td>0232</td><td>0233</td><td>0234</td><td>&nbsp;</td><td>0235</td><td>&nbsp;</td></tr>
+                  <tr><td>i</td><td>0236</td><td>0237</td><td>0238</td><td>&nbsp;</td><td>0239</td><td>&nbsp;</td></tr>
+                  <tr><td>o</td><td>0242</td><td>0243</td><td>0244</td><td>0245</td><td>0246</td><td>&nbsp;</td></tr>
+                  <tr><td>u</td><td>0249</td><td>0250</td><td>0251</td><td>&nbsp;</td><td>0252</td><td>&nbsp;</td></tr>
+                  <tr></tr><tr></tr><tr></tr>
+                  <tr><td>A</td><td>0192</td><td>0193</td><td>0194</td><td>0195</td><td>0196</td><td>0197</td></tr>
+                  <tr><td>E</td><td>0200</td><td>0201</td><td>0202</td><td>&nbsp;</td><td>0203</td><td>&nbsp;</td></tr>
+                  <tr><td>I</td><td>0204</td><td>0205</td><td>0206</td><td>&nbsp;</td><td>0207</td><td>&nbsp;</td></tr>
+                  <tr><td>O</td><td>0210</td><td>0211</td><td>0212</td><td>0213</td><td>0214</td><td>&nbsp;</td></tr>
+                  <tr><td>U</td><td>0217</td><td>0218</td><td>0219</td><td>&nbsp;</td><td>0220</td><td>&nbsp;</td></tr>
+                  <tr></tr><tr></tr><tr></tr>
+				  <!-- "special" characters that fall outside the normal ranges -->
+				  <!-- ae -->
+                  <tr><td>&#0230;</td><td>0230</td><td>&nbsp;</td><td>&#0198;</td><td>0198</td></tr>
+				  <!-- oe -->
+                  <tr><td>&#0156;</td><td>0156</td><td>&nbsp;</td><td>&#140;</td><td>0140</td></tr>
+				  <!-- o dash -->
+				  <tr><td>&#0248;</td><td>0248</td><td>&nbsp;</td><td>&#0216;</td><td>0216</td></tr>
+				  <!-- n tilde -->
+                  <tr><td>&#0241;</td><td>0241</td><td>&nbsp;</td><td>&#0209;</td><td>0209</td></tr>
+				  <!-- c cedille -->
+                  <tr><td>&#0231;</td><td>0231</td><td>&nbsp;</td><td>&#0199;</td><td>0199</td></tr>
+				  
+                </table>
+            </div>
+            <div class="tinycol">
+                <table>
+ 				  <script language="javascript" type="text/javascript">
+					  write_single_col_table('Math','0215','0247','0177','8800','8776');
+					  write_single_col_table('Fraction','8260', '8543', 'xxxx', 'xxxx');
+					  write_single_col_table('Supers','0186','0185','0178','0179');
+				  </script>
+                </table>
+            </div>
+            <div class="tinycol">
+                <table>
+ 				  <script language="javascript" type="text/javascript">
+					  write_single_col_table('Currency','0128','0163','0165','0162','0131');
+					  write_single_col_table('Marked','0174','0169','0153','xxxx');
+					  write_single_col_table('Writing','0134','0182','0135','0167');
+				  </script>
+                </table>
+            </div>
+            <div class="tinycol">
+                <table>
+ 				  <script language="javascript" type="text/javascript">
+					  write_single_col_table('D Quotes','0171','0187','0132','0147','0148');
+					  write_single_col_table('S Quotes','0130','0145','0146','xxxx');
+					  write_single_col_table('Dashes','0150','0151','0166','0133');
+				  </script>
+               </table>
+            </div>
+            <div class="tinycol">
+                <table>
+				  <script language="javascript" type="text/javascript">
+					  write_single_col_table('Bullets','0149','9675','9679','9642','9643');
+					  write_single_col_table('Constants','0960','8734','0181','8240');
+					  write_single_col_table('Measure','8242','8243','8470','0176');
+				  </script>
+                </table>
+            </div>
+    		<div class="tinycol">
+                <table>
+				  <script language="javascript" type="text/javascript">
+				  write_single_col_table('S Arrows','8592','8593','8594','8595','8596');
+				  write_single_col_table('D Arrows','8656','8657','8658','8659','8660');
+				  </script>
+                </table>		
+			</div>
+			<div class="tinycol">
+			    <table>
+				  <script language="javascript" type="text/javascript">
+				  write_single_col_table('Supers', '8304', '0185','0178','0179', '8308', '8309', '8310', '8311', '8312', '8313')
+				  </script>
+				</table>
+			</div>
+			<div class="tinycol">
+			    <table>
+				  <script language="javascript" type="text/javascript">
+				  write_single_col_table('Subs', '8320', '8321', '8322', '8323', '8324', '8325', '8326', '8327', '8328', '8329');
+				  </script>
+				</table>
+			</div>
+			<div class="tinycol">
+			    <table>
+				  <script language="javascript" type="text/javascript">
+				  write_single_col_table('Fractions', '0189' , '8531', '8532', '0188', '0190', '8533', '8534', '8535', '8536', '8537', '8538', '8539', '8540', '8541', '8542')
+				  </script>
+				</table>
+			</div>
+			<div class="col">
+				<table>
+					<tr><th colspan="2">Keyboard Codes</th></tr>
+					<tr><td colspan="2">These codes are used where the HTML code doesn't work through your keyboard</td></tr>
+					<!-- pi -->
+					<tr><td>&#0960;</td><td>210</td></tr>
+					<tr><td>&#8592;</td><td>27</td></tr>
+					<tr><td>&#8593;</td><td>24</td></tr>
+					<tr><td>&#8594;</td><td>26</td></tr>
+					<tr><td>&#8595;</td><td>25</td></tr>
+					<tr><td>&#8596;</td><td>29</td></tr>
+				</table>
+			</div>
+		</div>
+    </div>
+</body>
