@@ -1,0 +1,102 @@
+<xml>
+  <category name="Quick Links" bookmark="quicklink">
+    <link name="Alt numpad keystrokes" url="diacretics.html" icon="keyboard" />
+	<link name="Gmail" url="https://www.gmail.com" icon="gmail" />
+	<link name="Facebook" url="https://www.facebook.com" icon="facebook" />
+	<link name="WeTransfer" url="https://www.wetransfer.com" icon="wetransfer" />
+    <link name="Online LaTeX Equation Editor" url="https://www.codecogs.com/latex/eqneditor.php" icon="latex_eq_edit" />
+    <link name="Github" url="https://github.com" icon="github" />
+    <link name="Wordpress" url="https://wordpress.com" icon="wordpress" />
+    <link name="OneDrive" url="https://onedrive.live.com" icon="onedrive" />
+  </category>
+  <category name="News" bookmark="news">
+    <link name="Ino Reader" url="http://www.inoreader.com/" icon="inoreader" />
+    <link name="NJ.com" url="http://www.nj.com" icon="njcom" />
+	<link name="North Jersey" url="http://www.northjersey.com" icon="northjersey" />
+	<link name="CNN" url="http://www.cnn.com" icon="cnn"/>
+	<link name="NU.nl" url="http://www.nu.nl" icon="nu" />
+	<link name="BBC News" url="http://www.bbc.co.uk/news" icon="bbc" />
+	<link name="De Volkskrant" url="http://www.vk.nl" icon="volkskrant" />
+	<link name="Slashdot" url="http://www.slashdot.org" icon="slashdot" />
+	<link name="NASA Spaceflight" url="https://www.nasaspaceflight.com/" icon="nasaspaceflight" />
+	<link name="Space News" url="http://spacenews.com/" icon="spacenews" />
+	<link name="Fark" url="http://www.fark.com" icon="fark" />
+  </category>
+  <category name="Python" bookmark="python">
+    <link name="Python Software Foundation" url="https://www.python.org/" icon="python" />
+    <link name="WinPython" url="https://winpython.github.io/" icon="winpython" />
+    <link name="Python Extension Packages" url="http://www.lfd.uci.edu/~gohlke/pythonlibs/" icon="lfd" />
+    <link name="Matplotlib" url="http://matplotlib.org/" icon="matplotlib" />
+	<link name="GADM-Global Administrative Areas" url="http://www.gadm.org/" icon="generic" />
+	<link name="Python Cook Book" url="http://chimera.labs.oreilly.com/books/1230000000393/index.html" icon="oreilly" />
+    <link name="Python Keynotes by Brandon Rhodes" url="http://rhodesmill.org/brandon/talks/" icon="coffee" />
+    <link name="PyVideo Website" url="http://pyvideo.org/" icon="pyvideo" />
+    <link name="Jupyter Notebook" url="http://localhost:8888/tree" icon="jupyter" />
+    <link name="Python Anywhere" url="http://pythonanywhere.com" icon="python_anywhere" />
+  </category>
+  <category name="Retail" bookmark="retail">
+	<link name="Amazon" url="https://www.amazon.com" icon="amazon" />
+    <link name="Craigslist" url="http://newjersey.craigslist.org/" icon="craigslist" />
+	<link name="Hipmunk Travel Booking Site" url="http://www.hipmunk.com/" icon="hipmunk" />
+  </category>
+  <category name="Social Networking" bookmark="social">
+    <link name="Facebook" url="https://www.facebook.com" icon="facebook" />
+	<link name="Linked In" url="https://www.linkedin.com" icon="linkedin"/>
+	<link name="Youtube" url="http://www.youtube.com" icon="youtube"/>
+	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
+    <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch"/>
+	<link name="Tumblr" url="http://www.tumblr.com" icon="tumblr" />
+	<link name="Flickr" url="http://www.flickr.com" icon="flickr" />
+	<link name="Nikon Cafe" url="http://www.nikoncafe.com" icon="nikon_cafe" />
+	<link name="The Grid" url="http://www.mcwade.com/TheGrid" icon="the_grid" />
+	<link name="Slack (S/W Underground)" url="https://swung.slack.com/messages/general/" icon="slack" />
+  </category>
+  <category name="Reference" bookmark="ref">
+    <link name="Alt Numpad Keys" url="diacretics.html" icon="keyboard" />
+    <link name="Facebook Emoji Codes" url="http://www.symbols-n-emoticons.com/p/facebook-emoticons-list.html" icon="emoji" />
+	<link name="CIA World Factbook" url="https://www.cia.gov/library/publications/the-world-factbook/index.html" icon="cia"/>
+	<link name="Merriam Webster Dictionary" url="http://www.merriam-webster.com" icon="merriam_webster" />
+	<link name="Wikipedia" url="http://www.wikipedia.org" icon="wikipedia" />
+	<link name="Camerapedia" url="http://camerapedia.wikia.com/wiki/Camerapedia" icon="camerapedia" />
+	<link name="Internet Movie Database" url="http://www.imdb.com/" icon="imdb" />
+	<link name="Nikon Pictorial History" url="http://www.mir.com.my/rb/photography/companies/nikon/htmls/models/index.htm" icon="nikon" />
+	<link name="Urban Dictionary" url="http://www.urbandictionary.com/" icon="urbdict" />
+	<link name="White Pages Reverse Lookup" url="http://www.whitepages.com/reverse_phone" icon="whitepages" />
+  </category>
+  <category name="Games" bookmark="games">
+    <link name="KSP Forum" url="http://forum.kerbalspaceprogram.com/index.php" icon="ksp" />
+	<link name="KSP Forum (unread)" url="http://forum.kerbalspaceprogram.com/index.php?/discover/unread/" icon="ksp_red" />
+    <link name="Kerbal Maps" url="http://www.kerbalmaps.com/" icon="ksp" />
+    <link name="KSP Wiki" url="http://wiki.kerbalspaceprogram.com/wiki/Main_Page" icon="ksp" />
+    <link name="KSP Reddit" url="https://www.reddit.com/r/KerbalSpaceProgram/" icon="reddit" />
+    <link name="Kerbal Academy on Reddit" url="https://www.reddit.com/r/KerbalAcademy/" icon="reddit" />
+    <link name="Clash of Clans Wiki" url="http://clashofclans.wikia.com/wiki/Clash_of_Clans_Wiki" icon="clash_of_clans" />
+    <link name="Astroneer Forum" url="http://forum.systemera.net/" icon="astroneer" />
+  </category>
+  <category name="Weather and Traffic" bookmark="traffic">
+	<link name="National Weather Service" url="http://forecast.weather.gov/MapClick.php?CityName=Elmwood+Park&amp;state=NJ&amp;site=OKX&amp;lat=40.9044&amp;lon=-74.1197" icon="noaa"/>
+	<link name="Weather Spark" url="https://weatherspark.com/forecasts/noaa/USA/NJ/Elmwood+Park" icon="weatherspark"/>
+	<link name="CBS Traffic Alerts" url="http://newyork.cbslocal.com/traffic" icon="cbs" />
+	<link name="NJ Transit" url="http://www.njtransit.com/" icon="njtransit" />
+  </category>
+  <category name="Home network" bookmark="network">
+    <link name="Brother 2070N Laser Printer" url="http://192.168.1.51/" icon="brother"/>
+	<link name="Synology DS414 NAS" url="http://192.168.1.150/" icon="synology" />
+	<link name="Linksys Router" url="http://192.168.1.1/" icon="linksys" />
+	<link name="Reset Linksys Router" url="http://192.168.1.1/Reset.htm" icon="linksys" />
+  </category>
+  <category name="Work" bookmark="work">
+    <link name="Office 365" url="http://office.maersk.com" icon="office365" />
+    <link name="Salesforce.com" url="https://maersk.my.salesforce.com" icon="salesforce" />
+	<link name="Marketing Cloud" url="https://www.marketingcloud.com" icon="salesforce" />
+    <link name="Brand Central" url="http://brandcentral.maersk.com" icon="maersk" />
+    <link name="Palantir" url="https://yam.palantircloud.com/workspace/slate/documents/homepage" icon="palantir" />
+  </category>
+  <category name="Finance" bookmark="finance">
+    <link name="Paypal" url="http://www.paypal.com" icon="paypal" />
+    <link name="Bank of America" url="https://www.bankofamerica.com/" icon="boa" />
+	<link name="Valley National Bank" url="https://www.vbankworksonline.com/onlineserv/HB/Signon.cgi" icon="valleynational" />
+	<link name="Amazon Store Card" url="https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&amp;accountType=plcc&amp;langId=en" icon="amazon" />
+	<link name="Capital One Savings Account" url="https://secure.capitalone360.com/myaccount/banking/login.vm" icon="cap_one" />
+  </category>
+</xml>
