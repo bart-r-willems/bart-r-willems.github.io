@@ -8,6 +8,7 @@
     <link name="Github" url="https://github.com" icon="github" />
     <link name="Wordpress" url="https://wordpress.com" icon="wordpress" />
     <link name="OneDrive" url="https://onedrive.live.com" icon="onedrive" />
+    <link name="Google Play" url="https://play.google.com" icon="google_play" />
   </category>
   <category name="News" bookmark="news">
     <link name="Ino Reader" url="http://www.inoreader.com/" icon="inoreader" />
