@@ -63,6 +63,7 @@
 	<link name="Nikon Pictorial History" url="http://www.mir.com.my/rb/photography/companies/nikon/htmls/models/index.htm" icon="nikon" />
 	<link name="Urban Dictionary" url="http://www.urbandictionary.com/" icon="urbdict" />
 	<link name="White Pages Reverse Lookup" url="http://www.whitepages.com/reverse_phone" icon="whitepages" />
+    <link name="Where is Roadster?" url="http://www.whereisroadster.com" icon="default" />
   </category>
   <category name="Games" bookmark="games">
     <link name="KSP Forum" url="http://forum.kerbalspaceprogram.com/index.php" icon="ksp" />
@@ -75,8 +76,8 @@
     <link name="Astroneer Forum" url="http://forum.systemera.net/" icon="astroneer" />
   </category>
   <category name="Weather and Traffic" bookmark="traffic">
-	<link name="National Weather Service" url="http://forecast.weather.gov/MapClick.php?CityName=Elmwood+Park&amp;state=NJ&amp;site=OKX&amp;lat=40.9044&amp;lon=-74.1197" icon="noaa"/>
-	<link name="Weather Spark" url="https://weatherspark.com/forecasts/noaa/USA/NJ/Elmwood+Park" icon="weatherspark"/>
+	<link name="National Weather Service" url="http://forecast.weather.gov/MapClick.php?lat=40.8651&amp;lon=-74.075" icon="noaa"/>
+	<link name="Weather Spark" url="https://weatherspark.com/forecasts/noaa/USA/NJ/Hasbrouck+Heights" icon="weatherspark"/>
 	<link name="CBS Traffic Alerts" url="http://newyork.cbslocal.com/traffic" icon="cbs" />
 	<link name="NJ Transit" url="http://www.njtransit.com/" icon="njtransit" />
   </category>
