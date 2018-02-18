@@ -34,6 +34,8 @@
     <link name="PyVideo Website" url="http://pyvideo.org/" icon="pyvideo" />
     <link name="Jupyter Notebook" url="http://localhost:8888/tree" icon="jupyter" />
     <link name="Python Anywhere" url="http://pythonanywhere.com" icon="python_anywhere" />
+    <link name="Dan Bader Training" url="https://training.dbader.org" icon="dan_bader" />
+    <link name="Talk Python Training" url="https://training.talkpython.fm" icon="talk_python" />
   </category>
   <category name="Retail" bookmark="retail">
 	<link name="Amazon" url="https://www.amazon.com" icon="amazon" />
