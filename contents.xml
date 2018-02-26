@@ -35,7 +35,7 @@
     <link name="Jupyter Notebook" url="http://localhost:8888/tree" icon="jupyter" />
     <link name="Python Anywhere" url="http://pythonanywhere.com" icon="python_anywhere" />
     <link name="Dan Bader Training" url="https://training.dbader.org" icon="dan_bader" />
-    <link name="Talk Python Training" url="https://training.talkpython.fm" icon="talk_python" />
+    <link name="Talk Python Training" url="https://training.talkpython.fm/account" icon="talk_python" />
   </category>
   <category name="Retail" bookmark="retail">
 	<link name="Amazon" url="https://www.amazon.com" icon="amazon" />
@@ -47,7 +47,8 @@
 	<link name="Linked In" url="https://www.linkedin.com" icon="linkedin"/>
 	<link name="Youtube" url="http://www.youtube.com" icon="youtube"/>
 	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
-    <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch"/>
+    <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch" />
+    <link name="Reddit" url="https://www.reddit.com" icon="reddit" />
 	<link name="Tumblr" url="http://www.tumblr.com" icon="tumblr" />
 	<link name="Flickr" url="http://www.flickr.com" icon="flickr" />
 	<link name="Nikon Cafe" url="http://www.nikoncafe.com" icon="nikon_cafe" />
