@@ -36,6 +36,9 @@
     <link name="Python Anywhere" url="http://pythonanywhere.com" icon="python_anywhere" />
     <link name="Dan Bader Training" url="https://training.dbader.org" icon="dan_bader" />
     <link name="Talk Python Training" url="https://training.talkpython.fm/account" icon="talk_python" />
+    <link name="PyBites Challenges" url="https://pybit.es/pages/challenges.html" icon="pybites" />
+    <link name="Code Challenges" url="https://codechalleng.es/bites" icon="codechallenges" />
+    
   </category>
   <category name="Retail" bookmark="retail">
 	<link name="Amazon" url="https://www.amazon.com" icon="amazon" />
