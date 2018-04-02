@@ -45,12 +45,15 @@
     <link name="Craigslist" url="http://newjersey.craigslist.org/" icon="craigslist" />
 	<link name="Hipmunk Travel Booking Site" url="http://www.hipmunk.com/" icon="hipmunk" />
   </category>
+  <category name="Entertainmant" bookmark="entertainment">
+	<link name="Youtube" url="http://www.youtube.com" icon="youtube"/>
+	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
+    <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch" />  
+  </category>
   <category name="Social Networking" bookmark="social">
     <link name="Facebook" url="https://www.facebook.com" icon="facebook" />
 	<link name="Linked In" url="https://www.linkedin.com" icon="linkedin"/>
-	<link name="Youtube" url="http://www.youtube.com" icon="youtube"/>
-	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
-    <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch" />
+    <link name="Twitter" url="https://www.twitter.com" icon="twitter"/>
     <link name="Reddit" url="https://www.reddit.com" icon="reddit" />
 	<link name="Tumblr" url="http://www.tumblr.com" icon="tumblr" />
 	<link name="Flickr" url="http://www.flickr.com" icon="flickr" />
@@ -74,7 +77,7 @@
   <category name="Games" bookmark="games">
     <link name="KSP Forum" url="http://forum.kerbalspaceprogram.com/index.php" icon="ksp" />
 	<link name="KSP Forum (unread)" url="http://forum.kerbalspaceprogram.com/index.php?/discover/unread/" icon="ksp_red" />
-    <link name="Kerbal Maps" url="http://www.kerbalmaps.com/" icon="ksp" />
+    <link name="Resonant Orbit Calculator" url="resonant_orbit/calculator.html" icon="ksp" />
     <link name="KSP Wiki" url="http://wiki.kerbalspaceprogram.com/wiki/Main_Page" icon="ksp" />
     <link name="KSP Reddit" url="https://www.reddit.com/r/KerbalSpaceProgram/" icon="reddit" />
     <link name="Kerbal Academy on Reddit" url="https://www.reddit.com/r/KerbalAcademy/" icon="reddit" />
