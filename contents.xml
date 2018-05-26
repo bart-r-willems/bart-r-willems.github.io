@@ -45,10 +45,21 @@
     <link name="Craigslist" url="http://newjersey.craigslist.org/" icon="craigslist" />
 	<link name="Hipmunk Travel Booking Site" url="http://www.hipmunk.com/" icon="hipmunk" />
   </category>
-  <category name="Entertainmant" bookmark="entertainment">
+  <category name="Entertainment" bookmark="entertainment">
 	<link name="Youtube" url="http://www.youtube.com" icon="youtube"/>
 	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
     <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch" />  
+  </category>
+  <category name="Stationary" bookmark="stationary">
+    <link name="Pen Addict" url="https://www.penaddict.com" icon="penaddict" />
+    <link name="FP FB" url="https://www.facebook.com/groups/1185755598177723/" icon="facebook" />
+    <link name="FPN" url="https://www.facebook.com/groups/fountainpennetwork/" icon="facebook" />
+    <link name="Placeholder" url="" />
+    <link name="Goulet Pens" url="https://www.gouletpens.com/" icon="goulet" />
+    <link name="Jet Pens" url="https://www.jetpens.com/" icon="jetpens" />
+    <link name="Pen Chalet" url="https://www.penchalet.com/" icon="penchalet" />
+    <link name="Goldspot" url="https://goldspot.com/" icon="goldspot" />
+    <link name="Nanami Paper" url="http://www.nanamipaper.com/" icon="nanami" />
   </category>
   <category name="Social Networking" bookmark="social">
     <link name="Facebook" url="https://www.facebook.com" icon="facebook" />
