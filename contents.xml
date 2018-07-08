@@ -36,8 +36,8 @@
     <link name="Python Anywhere" url="http://pythonanywhere.com" icon="python_anywhere" />
     <link name="Dan Bader Training" url="https://training.dbader.org" icon="dan_bader" />
     <link name="Talk Python Training" url="https://training.talkpython.fm/account" icon="talk_python" />
-    <link name="PyBites Challenges" url="https://pybit.es/pages/challenges.html" icon="pybites" />
     <link name="Code Challenges" url="https://codechalleng.es/bites" icon="codechallenges" />
+    <link name="Datacamp" url="https://www.datacamp.com" icon="datacamp" />
     
   </category>
   <category name="Retail" bookmark="retail">
@@ -53,7 +53,6 @@
   <category name="Stationary" bookmark="stationary">
     <link name="Pen Addict" url="https://www.penaddict.com" icon="penaddict" />
     <link name="FP FB" url="https://www.facebook.com/groups/1185755598177723/" icon="facebook" />
-    <link name="FPN" url="https://www.facebook.com/groups/fountainpennetwork/" icon="facebook" />
     <link name="Fountain Pen Companion" url="https://www.fountainpencompanion.com/" icon="stationary" />
     <link name="Goulet Pens" url="https://www.gouletpens.com/" icon="goulet" />
     <link name="Jet Pens" url="https://www.jetpens.com/" icon="jetpens" />
