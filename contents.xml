@@ -9,6 +9,7 @@
     <link name="Wordpress" url="https://wordpress.com" icon="wordpress" />
     <link name="OneDrive" url="https://onedrive.live.com" icon="onedrive" />
     <link name="Google Play" url="https://play.google.com" icon="google_play" />
+    <link name="Passwords" url="https://overcast.fm/podcasts" icon="default" />
   </category>
   <category name="News" bookmark="news">
     <link name="Ino Reader" url="http://www.inoreader.com/" icon="inoreader" />
@@ -49,6 +50,7 @@
 	<link name="Youtube" url="http://www.youtube.com" icon="youtube"/>
 	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
     <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch" />  
+    <link name="Overcast" url="https://overcast.fm/podcasts" icon="overcast" />
   </category>
   <category name="Stationary" bookmark="stationary">
     <link name="Pen Addict" url="https://www.penaddict.com" icon="penaddict" />
