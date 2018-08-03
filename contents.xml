@@ -9,7 +9,7 @@
     <link name="Wordpress" url="https://wordpress.com" icon="wordpress" />
     <link name="OneDrive" url="https://onedrive.live.com" icon="onedrive" />
     <link name="Google Play" url="https://play.google.com" icon="google_play" />
-    <link name="Passwords" url="https://overcast.fm/podcasts" icon="default" />
+    <link name="Passwords" url="https://passwordsgenerator.net/?length=16&amp;symbols=1&amp;numbers=1&amp;lowercase=1&amp;uppercase=1&amp;similar=1&amp;ambiguous=1&amp;client=1&amp;autoselect=0" icon="default" />
   </category>
   <category name="News" bookmark="news">
     <link name="Ino Reader" url="http://www.inoreader.com/" icon="inoreader" />
@@ -114,6 +114,8 @@
 	<link name="Marketing Cloud" url="https://www.marketingcloud.com" icon="salesforce" />
     <link name="Brand Central" url="http://brandcentral.maersk.com" icon="maersk" />
     <link name="Palantir" url="https://yam.palantircloud.com/workspace/slate/documents/homepage" icon="palantir" />
+    <link name="Enable Global" url="https://teamsite.maerskgroup.com/sites/intranet/Pages/home.aspx" icon="default" />
+    <link name="Enable NAM" url="https://teamsite.maerskgroup.com/sites/mli/SitePages/North-America-Region.aspx?slrid=4aee7e9e-3023-0000-1f61-8013367215bb" icon="default" />
   </category>
   <category name="Finance" bookmark="finance">
     <link name="Paypal" url="http://www.paypal.com" icon="paypal" />
