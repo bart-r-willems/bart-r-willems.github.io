@@ -109,13 +109,13 @@
 	<link name="Reset Linksys Router" url="http://192.168.1.1/Reset.htm" icon="linksys" />
   </category>
   <category name="Work" bookmark="work">
+    <link name="Enable Global" url="https://teamsite.maerskgroup.com/sites/intranet/Pages/home.aspx" icon="maersk" />
+    <link name="Enable NAM" url="https://teamsite.maerskgroup.com/sites/mli/SitePages/North-America-Region.aspx?slrid=4aee7e9e-3023-0000-1f61-8013367215bb" icon="maersk" />
     <link name="Office 365" url="http://office.maersk.com" icon="office365" />
     <link name="Salesforce.com" url="https://maersk.my.salesforce.com" icon="salesforce" />
 	<link name="Marketing Cloud" url="https://www.marketingcloud.com" icon="salesforce" />
     <link name="Brand Central" url="http://brandcentral.maersk.com" icon="maersk" />
     <link name="Palantir" url="https://yam.palantircloud.com/workspace/slate/documents/homepage" icon="palantir" />
-    <link name="Enable Global" url="https://teamsite.maerskgroup.com/sites/intranet/Pages/home.aspx" icon="default" />
-    <link name="Enable NAM" url="https://teamsite.maerskgroup.com/sites/mli/SitePages/North-America-Region.aspx?slrid=4aee7e9e-3023-0000-1f61-8013367215bb" icon="default" />
   </category>
   <category name="Finance" bookmark="finance">
     <link name="Paypal" url="http://www.paypal.com" icon="paypal" />
