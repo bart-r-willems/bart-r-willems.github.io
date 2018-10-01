@@ -10,6 +10,8 @@
     <link name="OneDrive" url="https://onedrive.live.com" icon="onedrive" />
     <link name="Google Play" url="https://play.google.com" icon="google_play" />
     <link name="Passwords" url="https://passwordsgenerator.net/?length=16&amp;symbols=1&amp;numbers=1&amp;lowercase=1&amp;uppercase=1&amp;similar=1&amp;ambiguous=1&amp;client=1&amp;autoselect=0" icon="default" />
+    <link name="Time and Date" url="https://timeanddate.com" icon="timeanddate" />
+    <link name="Basic Text Editor" url="editor.html" icon="editor" />
   </category>
   <category name="News" bookmark="news">
     <link name="Ino Reader" url="http://www.inoreader.com/" icon="inoreader" />
