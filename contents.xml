@@ -62,6 +62,7 @@
     <link name="Jet Pens" url="https://www.jetpens.com/" icon="jetpens" />
     <link name="Pen Chalet" url="https://www.penchalet.com/" icon="penchalet" />
     <link name="Goldspot" url="https://goldspot.com/" icon="goldspot" />
+    <link name="Cult Pens" url="https://www.cultpens.com" icon="cultpens" />
     <link name="Nanami Paper" url="http://www.nanamipaper.com/" icon="nanami" />
   </category>
   <category name="Social Networking" bookmark="social">
@@ -122,7 +123,7 @@
   <category name="Finance" bookmark="finance">
     <link name="Paypal" url="http://www.paypal.com" icon="paypal" />
     <link name="Bank of America" url="https://www.bankofamerica.com/" icon="boa" />
-	<link name="Valley National Bank" url="https://www.vbankworksonline.com/onlineserv/HB/Signon.cgi" icon="valleynational" />
+	<link name="Valley National Bank" url="https://www.vbankworksonline.com/tob/live/usp-core/app/home" icon="valleynational" />
 	<link name="Amazon Store Card" url="https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&amp;accountType=plcc&amp;langId=en" icon="amazon" />
 	<link name="Capital One Savings Account" url="https://secure.capitalone360.com/myaccount/banking/login.vm" icon="cap_one" />
   </category>
