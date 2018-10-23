@@ -123,7 +123,7 @@
   <category name="Finance" bookmark="finance">
     <link name="Paypal" url="http://www.paypal.com" icon="paypal" />
     <link name="Bank of America" url="https://www.bankofamerica.com/" icon="boa" />
-	<link name="Valley National Bank" url="https://www.vbankworksonline.com/tob/live/usp-core/app/home" icon="valleynational" />
+	<link name="Valley National Bank" url="https://www.valley.com/sign-in/personal-small-business-banking" icon="valleynational" />
 	<link name="Amazon Store Card" url="https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&amp;accountType=plcc&amp;langId=en" icon="amazon" />
 	<link name="Capital One Savings Account" url="https://secure.capitalone360.com/myaccount/banking/login.vm" icon="cap_one" />
   </category>
