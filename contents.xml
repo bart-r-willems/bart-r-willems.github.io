@@ -53,6 +53,7 @@
 	<link name="Vimeo" url="http://www.vimeo.com" icon="vimeo" />
     <link name="Twitch" url="http://www.twitch.tv/directory/following" icon="twitch" />  
     <link name="Overcast" url="https://overcast.fm/podcasts" icon="overcast" />
+    <link name="Prime Video" url="https://www.amazon.com/Amazon-Video/b/?&amp;node=2858778011" icon="amazon" />
   </category>
   <category name="Stationary" bookmark="stationary">
     <link name="Pen Addict" url="https://www.penaddict.com" icon="penaddict" />
