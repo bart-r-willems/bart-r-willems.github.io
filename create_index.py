@@ -1,70 +1,86 @@
 #!python3
 
-import xml.etree.ElementTree as ET
+import json
 import math
 
 COLCOUNT = 4
 
-class Category(object):
-    def __init__(self, name, bookmark):
-        self.name = name
-        self.bookmark = bookmark
-        self.itemlist = []
-
-    def item_column(self, col_num, colcount):
-        """return a column with x subitems based on column number and column count"""
-        col_size = int(math.ceil(float(len(self.itemlist)) / colcount))
-        result = []
-        for i in range(col_num, len(self.itemlist), colcount):
-            result.append(self.itemlist[i])
-        return result
-        # return self.itemlist[col_num * col_size: min((col_num + 1) * col_size, len(self.itemlist) + 1)]
 
 def main():
+    data = read_content()
+    toc_section = create_toc_code(data)
+    links_section = create_links_code(data)
+    process_template(toc_section, links_section)
+
+
+def read_content():
+    '''
+    Read the content from the json file and return it as a list of
+    link categories, each with a list of individual links
+    '''
+    with open('content.json', 'r') as infile:
+        return json.load(infile)
+
+
+def create_toc_code(data):
+    '''
+    Create the html code for the table of contents
+    (the panel on the left side)
+    '''
     toc_section = ''
-    links_section = ''
-    toc = read_toc()
-    for category in toc:
-        print('----\n  Name    : {:}\n  Bookmark: {:}'.format(category.name, category.bookmark))
-        toc_section += '            <li><a href="#{:}">{:}</a></li>\n'.format(category.bookmark, category.name)
-        links_section += '        <h2><a name="{:}">{:}</a></h2>\n'.format(category.bookmark, category.name)
-        links_section += '          <table border="0"><tr>\n'
-        # cycle through all link columns
-        for i in range(COLCOUNT):
-            links_section += '        <td width="400" valign="top"><ul class="list-group">\n'
-            for link in category.item_column(i, COLCOUNT):
-                links_section += '            <a class="list-group-item" href="{:}"><img src="icons/{:}.png" class="img-rounded">&nbsp;{:}</a>\n'.format(link[1], link[2], link[0])
-            links_section += '        </ul></td>\n'
-        links_section += '          </tr></table>\n'
+    for category in data:
+        name, bookmark = extract_from_dict(category, 'name', 'bookmark')
+        print(f'----\n  Name    : {name}\n  Bookmark: {bookmark}')
+        toc_section += f'            <li><a href="#{bookmark}">{name}</a></li>\n'
+    return toc_section
 
-    template_file = open('template.html', 'r')
-    html_file = open('index.html', 'w')
-    for line in template_file:
-        if line =='<!-- PLACEHOLDER: TABLE OF CONTENTS -->\n':
-            html_file.write(toc_section)
-        elif line == '<!-- PLACEHOLDER: LINK SECTIONS -->\n':
-            html_file.write(links_section)
-        else:
-            html_file.write(line)
 
-    template_file.close()
-    html_file.close()
-
-def read_toc():
+def create_links_code(data):
+    '''
+    Create the html code for the actual links on the start page
+    Grouped per category, in an N-column table; N is determined
+    by the constant COLCOUNT
+    '''
     result = []
-    tree = ET.parse('contents.xml')
-    root = tree.getroot()
-    for category in root:
-        if category.tag == 'category':
-            catlist = Category(category.attrib['name'], category.attrib['bookmark'])
-            for link in category:
-                if link.tag == 'link':
-                    if 'icon' not in link.attrib:
-                        catlist.itemlist.append((link.attrib['name'], link.attrib['url'], 'default'))
-                    else:
-                        catlist.itemlist.append((link.attrib['name'], link.attrib['url'], link.attrib['icon']))
-            result.append(catlist)
-    return result
+    for category in data:
+        name, bookmark = extract_from_dict(category, 'name', 'bookmark')
+        result.append(generate_links_header(name, bookmark))
+        for i in range(COLCOUNT):
+            result.append(generate_links_column(category['content'][i::COLCOUNT]))
+        result.append(generate_links_footer())
+    return '\n'.join(result) + '\n'
+
+
+def generate_links_header(name, bookmark):
+    return f'        <h2><a name="{bookmark}">{name}</a></h2>\n        <table border="0"><tr>'
+
+
+def generate_links_column(content):
+    result = ['          <td width="400" valign="top"><ul class="list-group">']
+    for link in content:
+        title, url, icon = extract_from_dict(link, 'name', 'url', 'icon')
+        result.append(f'            <a class="list-group-item" href="{url}"><img src="icons/{icon}.png" class="img-rounded">&nbsp;{title}</a>')
+    result.append('          </ul></td>')
+    return '\n'.join(result)
+
+
+def generate_links_footer():
+    return '        </tr></table>'
+
+
+def process_template(toc_section, links_section):
+    with  open('index.html', 'w') as html_file:
+        for line in open('template.html', 'r'):
+            if line =='<!-- PLACEHOLDER: TABLE OF CONTENTS -->\n':
+                html_file.write(toc_section)
+            elif line == '<!-- PLACEHOLDER: LINK SECTIONS -->\n':
+                html_file.write(links_section)
+            else:
+                html_file.write(line)
+
+def extract_from_dict(dictionary, *keys):
+    return [dictionary[key] for key in keys]
+
 
 if __name__ == '__main__':
     main()
