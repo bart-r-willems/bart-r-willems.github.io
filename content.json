@@ -4,6 +4,7 @@
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
       { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
+      { "name": "Calculator", "url": "hp15c.html", "icon": "hp15"},
       { "name": "WeTransfer", "url": "https://www.wetransfer.com", "icon": "wetransfer"},
       { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
       { "name": "Github", "url": "https://github.com", "icon": "github"},
