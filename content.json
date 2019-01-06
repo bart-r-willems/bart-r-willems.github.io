@@ -58,7 +58,7 @@
       { "name": "Twitch", "url": "http://www.twitch.tv/directory/following", "icon": "twitch"},
       { "name": "Overcast", "url": "https://overcast.fm/podcasts", "icon": "overcast"},
       { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "amazon"},
-      { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "amazon"}]},
+      { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "kindle"}]},
   { "name": "Stationary",
     "bookmark": "stationary",
     "content": [
