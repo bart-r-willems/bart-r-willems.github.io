@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Demo
+		</title>
+		<style>
+			*{
+				box-sizing: border-box;
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				font-family: sans-serif;
+				padding: 20px;
+			}
+			h1{
+				margin: 0px 0px 20px 0px;
+			}
+			div{
+				/*outline: 1px #AAAAAA solid;*/
+			}
+			#uhr-200px{
+				width: 212px;
+				height: 212px;
+				position: absolute;
+				top: 234px;
+				left: 452px;
+			}
+			#big{
+				width: 400px;
+				height: 400px;
+			}
+			input{
+				width: 100px;
+				margin-top: 20px;
+			}
+			input, button{
+				height: 30px;
+				padding: 3px 5px;
+				font-size: 16px;
+				display: inline-block;
+			}
+		</style>	
+	</head>
+	<body>
+		<h1>Demo Bahnhofsuhr</h1>
+		<div id="uhr-200px">
+		</div>
+		<div id="big">
+		</div>
+		<br />
+		<div id="debug">
+		</div>
+
+		<input type="text" id="setTimeInput" value="10:10:00" /> <button id="setTimeButton">Set Time</button>
+
+		<script type="text/javascript" src="./bahnhofsuhr.js"></script>
+		<script type="text/javascript">
+			var uhr = new Bahnhofsuhr("uhr-200px", {debugMode: false});
+			var uhr2 = new Bahnhofsuhr("big", {debugMode: false, showBorder: true, showLogo: true, fullscreenable: true});
+
+			var setTimeInput = document.getElementById("setTimeInput");
+			var setTimeButton = document.getElementById("setTimeButton");
+
+			setTimeInput.oninput = function(e){
+				
+				if(!checkDate(setTimeInput.value)){
+					setTimeButton.disabled = true;
+				} else {
+					setTimeButton.disabled = false;
+				}
+			}
+
+			setTimeInput.onkeypress = function(e){
+				if(e.code == "Enter"){
+					setTimeButton.onclick();
+				}
+			}
+
+			setTimeButton.onclick = function(){
+				
+				var date = checkDate(setTimeInput.value);
+
+				if(date){
+					uhr.setTime(date);
+					uhr2.setTime(date);
+				}
+			}
+
+			function checkDate(dateString){
+				var date = new Date();
+				var time = dateString.split(":");
+				
+				date.setHours(time[0]*1);
+				
+				if(time[1]){
+					date.setMinutes(time[1]*1);
+				} else {
+					date.setMinutes(0);
+				}
+				
+				if(time[2]){
+					date.setSeconds(time[2]*1);
+				} else {
+					date.setSeconds(0);
+				}
+
+				if(time[3]){
+					date.setMilliseconds(time[3]*1);
+				} else {
+					date.setMilliseconds(0);
+				}
+				
+				if(!isNaN(date)){
+					return date;
+				} else {
+					return false;
+				}
+			}
+			
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
