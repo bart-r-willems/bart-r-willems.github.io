@@ -1,6 +1,7 @@
 [ { "name": "Quick Links",
     "bookmark": "quicklink",
     "content": [
+      { "name": "Clock", "url": "clock/index.html", "icon": "default"},
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
       { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
