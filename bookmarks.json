@@ -8,9 +8,27 @@
       { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"}]},
-  { "name": "Python",
-    "bookmark": "python",
+  { "name": "Python Resources",
+    "bookmark": "py_resource",
     "content": [
       { "name": "Inside Python Dicts", "url": "https://just-taking-a-ride.com/inside_python_dict/chapter1.html", "icon": "python"},
-      { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"}]}
+      { "name": "Python Extension Packages", "url": "http://www.lfd.uci.edu/~gohlke/pythonlibs/", "icon": "lfd"},
+      { "name": "GADM-Global Administrative Areas", "url": "http://www.gadm.org/", "icon": "generic"},
+      { "name": "Python Cook Book", "url": "http://chimera.labs.oreilly.com/books/1230000000393/index.html", "icon": "oreilly"},
+      { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"}
+    ]},
+  { "name": "Python Education",
+    "bookmark": "py_ed",
+    "content": [
+      { "name": "Python Keynotes by Brandon Rhodes", "url": "http://rhodesmill.org/brandon/talks/", "icon": "coffee"},
+      { "name": "PyVideo Website", "url": "http://pyvideo.org/", "icon": "pyvideo"},
+      { "name": "Dan Bader Training", "url": "https://training.dbader.org", "icon": "dan_bader"},
+      { "name": "Talk Python Training", "url": "https://training.talkpython.fm/account", "icon": "talk_python"},
+      { "name": "Datacamp", "url": "https://www.datacamp.com", "icon": "datacamp"}
+    ]},
+  { "name": "Python Blogs",
+    "bookmark": "py_blog",
+    "content": [
+      { "name": "Practical Business Python", "url": "https://pbpython.com/", "icon": "python"}
+    ]}
 ]
