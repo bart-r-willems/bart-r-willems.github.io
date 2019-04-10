@@ -39,6 +39,7 @@
       { "name": "Matplotlib", "url": "http://matplotlib.org/", "icon": "matplotlib"},
       { "name": "Jupyter Notebook", "url": "http://localhost:8888/tree", "icon": "jupyter"},
       { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
+      { "name": "Azure Notebooks", "url": "https://notebooks.azure.com", "icon": "jupyter"},
       { "name": "Code Challenges", "url": "https://codechalleng.es/bites", "icon": "codechallenges"}]},
   { "name": "Retail",
     "bookmark": "retail",
