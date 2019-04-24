@@ -1,530 +1,187 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en" style="height: 100%">
-    <head>
-        <meta charset="utf-8">
-        <title>bookmarks.html : /home/bartwillems/startpage/bookmarks.html : Editor : bartwillems : PythonAnywhere</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="bookmarks.html : /home/bartwillems/startpage/bookmarks.html : Editor : bartwillems : PythonAnywhere">
-        <meta name="author" content="PythonAnywhere LLP">
-        <meta name="google-site-verification" content="O4UxDrfcHjC44jybs2vajc1GgRkTKCTRgVzeV6I9V14" />
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bookmarks</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+            <!-- Example links
+            <li><a href="#1">Link 1</a></li>
+            <li><a href="#2">Link 2</a></li>
+            <li><a href="#3">Link 3 this is a longer link name</a></li>
+            -->
+
+            <li><a href="#quicklink">Quick Links</a></li>
+            <li><a href="#py_resource">Python Resources</a></li>
+            <li><a href="#py_ed">Python Education</a></li>
+            <li><a href="#py_blog">Python Blogs</a></li>
+
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-12">
+
+<p>
+                 <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+</p>
+
+                  <form method="get" action="https://www.google.com/search">
+                    Search:
+                      <input type="text"   name="q" maxlength="255" value="" style="width:800px;text-align:left;" />
+                      <input type="submit" value="Google" style="width:100px;text-align:right;" />
+                  </form>
+                  <table border='0' padding='0' width="100%">
+                    <tr><td colspan="16" align="center">Test Pattern</td></tr>
+                    <tr>
+                      <td bgcolor="#000000">&nbsp;</td>
+                      <td bgcolor="#111111">&nbsp;</td>
+                      <td bgcolor="#222222">&nbsp;</td>
+                      <td bgcolor="#333333">&nbsp;</td>
+                      <td bgcolor="#444444">&nbsp;</td>
+                      <td bgcolor="#555555">&nbsp;</td>
+                      <td bgcolor="#666666">&nbsp;</td>
+                      <td bgcolor="#777777">&nbsp;</td>
+                      <td bgcolor="#888888">&nbsp;</td>
+                      <td bgcolor="#999999">&nbsp;</td>
+                      <td bgcolor="#AAAAAA">&nbsp;</td>
+                      <td bgcolor="#BBBBBB">&nbsp;</td>
+                      <td bgcolor="#CCCCCC">&nbsp;</td>
+                      <td bgcolor="#DDDDDD">&nbsp;</td>
+                      <td bgcolor="#EEEEEE">&nbsp;</td>
+                      <td bgcolor="#FFFFFF">&nbsp;</td>
+                    </tr>
+                  </table>
 
 
-        <!-- Le styles -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" />
+        <!-- Example of link section
+        <h2><a name="1">Part 1</a></h2>
+        <ul class="list-group">
+          <a class="list-group-item" href="#">Test Link</a>
+          <a class="list-group-item" href="#">Test Link</a>
+          <a class="list-group-item" href="#">Test Link</a>
+          <a class="list-group-item" href="#">Test Link</a>
+          <a class="list-group-item" href="#">Test Link</a>
+        </ul>
+        -->
+        <h2><a name="quicklink">Quick Links</a></h2>
+        <table border="0"><tr>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="index.html"><img src="icons/default.png" class="img-rounded">&nbsp;Start Page</a>
+            <a class="list-group-item" href="https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0"><img src="icons/default.png" class="img-rounded">&nbsp;Passwords</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="diacretics.html"><img src="icons/keyboard.png" class="img-rounded">&nbsp;Alt numpad keystrokes</a>
+            <a class="list-group-item" href="https://timeanddate.com"><img src="icons/timeanddate.png" class="img-rounded">&nbsp;Time and Date</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="hp15c.html"><img src="icons/hp15.png" class="img-rounded">&nbsp;Calculator</a>
+            <a class="list-group-item" href="editor.html"><img src="icons/editor.png" class="img-rounded">&nbsp;Basic Text Editor</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="https://www.codecogs.com/latex/eqneditor.php"><img src="icons/latex_eq_edit.png" class="img-rounded">&nbsp;Online LaTeX Equation Editor</a>
+          </ul></td>
+        </tr></table>
+        <h2><a name="py_resource">Python Resources</a></h2>
+        <table border="0"><tr>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="http://www.lfd.uci.edu/~gohlke/pythonlibs/"><img src="icons/lfd.png" class="img-rounded">&nbsp;Python Extension Packages</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="http://www.gadm.org/"><img src="icons/generic.png" class="img-rounded">&nbsp;GADM-Global Administrative Areas</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="http://chimera.labs.oreilly.com/books/1230000000393/index.html"><img src="icons/oreilly.png" class="img-rounded">&nbsp;Python Cook Book</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="https://docs.python.org/3/"><img src="icons/python.png" class="img-rounded">&nbsp;Python Docs (3.7.2)</a>
+          </ul></td>
+        </tr></table>
+        <h2><a name="py_ed">Python Education</a></h2>
+        <table border="0"><tr>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="https://just-taking-a-ride.com/inside_python_dict/chapter1.html"><img src="icons/python.png" class="img-rounded">&nbsp;Inside Python Dicts</a>
+            <a class="list-group-item" href="https://training.talkpython.fm/account"><img src="icons/talk_python.png" class="img-rounded">&nbsp;Talk Python Training</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="http://rhodesmill.org/brandon/talks/"><img src="icons/coffee.png" class="img-rounded">&nbsp;Python Keynotes by Brandon Rhodes</a>
+            <a class="list-group-item" href="https://www.datacamp.com"><img src="icons/datacamp.png" class="img-rounded">&nbsp;Datacamp</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="http://pyvideo.org/"><img src="icons/pyvideo.png" class="img-rounded">&nbsp;PyVideo Website</a>
+            <a class="list-group-item" href="https://just-taking-a-ride.com/inside_python_dict"><img src="icons/python.png" class="img-rounded">&nbsp;Inside Dictionaries</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="https://training.dbader.org"><img src="icons/dan_bader.png" class="img-rounded">&nbsp;Dan Bader Training</a>
+          </ul></td>
+        </tr></table>
+        <h2><a name="py_blog">Python Blogs</a></h2>
+        <table border="0"><tr>
+          <td width="400" valign="top"><ul class="list-group">
+            <a class="list-group-item" href="https://pbpython.com/"><img src="icons/python.png" class="img-rounded">&nbsp;Practical Business Python</a>
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+          </ul></td>
+          <td width="400" valign="top"><ul class="list-group">
+          </ul></td>
+        </tr></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
-        <link rel="stylesheet" href="/static/CACHE/css/06bfdea50a3e.css" type="text/css" media="screen" />
-        <link rel="stylesheet" href="/static/CACHE/css/a5c0829f431b.css" type="text/css" /><link rel="stylesheet" href="/static/CACHE/css/7376f1fe3938.css" type="text/css" media="screen" />
+    </div>
+    <!-- /#wrapper -->
 
-        <!-- Le javascript -->
-        <script type="text/javascript">
-            var Anywhere = {};
-            Anywhere.urls = {};
-            Anywhere.csrfToken = "uYQxE4qhNZuhQlMnGh0vjAWYI2b4bqmQwQtpmIjd0ut0rnQGhCxlhpkMmQbdHOtt";
-        </script>
-        <script type="text/javascript" src="/static/CACHE/js/efd0f9224b4c.js"></script>
-        
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-        <script type="text/javascript" src="/static/CACHE/js/4d5d4f66ed1b.js"></script>
-        
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $.extend(Anywhere.urls, {
-          file: "/user/bartwillems/files/home/bartwillems/startpage/bookmarks.html",
-          check_hash: "/user/bartwillems/files/home/bartwillems/startpage/bookmarks.html",
-          update_editor_mode_preference: "/user/bartwillems/account/update_editor_mode_preference",
-          console_api: "/api/v0/user/bartwillems/consoles/",
-        });
-        var filename = "/home/bartwillems/startpage/bookmarks.html";
-        var hash = "5ec04a869465ab895724798b7ccb9fc0";
-        var interpreter = "None";
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-        
-            Anywhere.Editor.InitializeAce(ace, Anywhere.urls, filename, hash, interpreter, "pythonanywhere.com");
-            $("#id_keybinding_mode_select").val("normal");
-            $("#id_keybinding_mode_select").trigger("change");
-        
-        var consoleVisible = false;
-        Anywhere.Editor.splitPanes(consoleVisible);
-
-        Anywhere.WebAppControl.initialize();
-        Anywhere2.initializeFileSharingOptions(
-          $('#id_file_sharing_options')[0],
-          {
-            url: "/api/v0/user/bartwillems/files/sharing/",
-            csrfToken: "uYQxE4qhNZuhQlMnGh0vjAWYI2b4bqmQwQtpmIjd0ut0rnQGhCxlhpkMmQbdHOtt",
-            path: "/home/bartwillems/startpage/bookmarks.html"
-          }
-        );
-
-      });
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
     </script>
 
-        
+</body>
 
-    </head>
-
-     <body style="height:100%;">
-       <div style="min-height: 100%; position: relative;">
-        
-        
-  
-
-
-  <nav class="navbar teacher-navbar">
-    <div class="container nice_dropdown">
-      You are currently using PythonAnywhere as
-      
-        <div class="dropdown">
-          <a class="dropdown-toggle" id="id_view_as_dropdown_button" role="button" data-toggle="dropdown" href="#">
-            <span id="id_viewing_as_username">bartwillems</span>
-            <span class="caret"></span>
-          </a>
-          <ul id="id_view_as_dropdown_menu" class="dropdown-menu pull-right" role="menu" aria-labelledby="id_view_as_dropdown_button">
-            <li role="presentation"><a role="menuitem" href="/user/bartwillems/">Switch to bartwillems</a></li>
-            
-              <li role="presentation"><a role="menuitem" href="/user/kpahountis/">Switch to kpahountis</a></li>
-            
-          </ul>
-        </div>
-      
-    </div>
-  </nav>
-
-
-
-  <nav class="navbar navbar-default fullscreen-main-navbar">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/">
-        <img id="id_logo" src="/static/anywhere/images/PA-logo-snake-only.svg" height="100%" />
-      </a>
-    </div>
-
-    <div class="extra-nav-content">
-      
-
-  <div id="id_editor_toolbar">
-
-    <div class="pull-left">
-      <span id="id_breadcrumbs_div"><a class="breadcrumbs_link breadcrumb_entry" href="/user/bartwillems/files/">/</a><a class="breadcrumbs_link breadcrumb_entry" href="/user/bartwillems/files/home">home</a><span class="breadcrumb_entry">/</span><a class="breadcrumbs_link breadcrumb_entry" href="/user/bartwillems/files/home/bartwillems">bartwillems</a><span class="breadcrumb_entry">/</span><a class="breadcrumbs_link breadcrumb_entry" href="/user/bartwillems/files/home/bartwillems/startpage">startpage</a><span class="breadcrumb_entry">/</span><wbr><span class="breadcrumb_entry breadcrumb_terminal">bookmarks.html</span></span>
-
-      <span>
-        <span id="id_unsaved_changes_spacer">
-          <span id="id_unsaved_changes" class="pa_hidden muted">(unsaved changes)</span>
-        </span>
-      </span>
-    </div>
-
-    <div id="id_editor_messages" class="pull-left">
-      
-
-    </div>
-
-    <div class="pull-right">
-      <div id="id_editor_buttons_right" class="form-inline">
-        <span id="id_save_error" class="pa_hidden alert alert-danger">Error saving.</span>
-        <img src="/static/anywhere/images/spinner-small.gif" class="pa_hidden" id="id_save_spinner" />
-        
-          <span id="id_keyboard_shortcuts"><a href="#">Keyboard shortcuts:</a></span>
-          <select id="id_keybinding_mode_select" class="form-control input-sm">
-            <option value="normal">Normal</option>
-            <option value="vim">Vim</option>
-          </select>
-        
-        <button id="id_display_sharing_options" class="btn btn-default" data-toggle="modal" data-target="#id_file_sharing_modal" title="Get a URL to share this file">
-          <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-          Share
-        </button>
-        
-          <button id="id_save" class="btn btn-success" title="Save (Ctrl + S)">
-            <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
-            Save
-          </button>
-          <button id="id_save_as" class="btn btn-default" title="Save As">Save as...</button>
-        
-        
-
-        
-          
-        
-      </div>
-    </div>
-
-  </div>
-
-
-    </div>
-
-    <div class="dropdown fullscreen-hamburger fullscreen-mini-nav">
-      <button type="button" class="navbar-toggle" data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <ul class="dropdown-menu pull-right">
-        
-  <li class=""><a id="id_dashboard_link" href="/user/bartwillems/">Dashboard</a></li>
-  <li class=""><a id="id_consoles_link" href="/user/bartwillems/consoles/">Consoles</a></li>
-  <li class=""><a id="id_files_link" href="/user/bartwillems/files/home/bartwillems">Files</a></li>
-  <li class=""><a id="id_web_app_link" href="/user/bartwillems/webapps/">Web</a></li>
-  <li class=""><a id="id_tasks_link" href="/user/bartwillems/tasks_tab/">Tasks</a></li>
-  <li class=""><a id="id_databases_link" href="/user/bartwillems/databases/">Databases</a></li>
-
-
-        <li class=""><a href="" class="feedback_link">Send feedback</a></li>
-<li class=""><a href="/forums/" class="forums_link">Forums</a></li>
-<li class=""><a href="https://help.pythonanywhere.com/" class="help_link">Help</a></li>
-<li class=""><a href="https://blog.pythonanywhere.com/" class="blog_link">Blog</a></li>
-
-  
-  <li class=""><a href="/user/bartwillems/account/" class="account_link">Account</a></li>
-  <li class="">
-    <form action="/logout/" method="POST">
-      <input type='hidden' name='csrfmiddlewaretoken' value='uYQxE4qhNZuhQlMnGh0vjAWYI2b4bqmQwQtpmIjd0ut0rnQGhCxlhpkMmQbdHOtt' />
-      <button type="submit" class="btn-link logout_link">Log out</button>
-    </form>
-  </li>
-
-
-      </ul>
-    </div>
-
-  </nav>
-
-
-
-        
-    
-
-
-        
-  <div>
-    <div id="id_ide_split_panes">
-
-      
-        <div id="id_editor">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-
-&lt;head&gt;
-
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
-    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
-
-    &lt;title&gt;Bookmarks&lt;/title&gt;
-
-    &lt;!-- Bootstrap Core CSS --&gt;
-    &lt;link href=&quot;css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
-
-    &lt;!-- Custom CSS --&gt;
-    &lt;link href=&quot;css/simple-sidebar.css&quot; rel=&quot;stylesheet&quot;&gt;
-
-    &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
-    &lt;!-- WARNING: Respond.js doesn&#39;t work if you view the page via file:// --&gt;
-    &lt;!--[if lt IE 9]&gt;
-        &lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-
-&lt;/head&gt;
-
-&lt;body&gt;
-
-    &lt;div id=&quot;wrapper&quot;&gt;
-
-        &lt;!-- Sidebar --&gt;
-        &lt;div id=&quot;sidebar-wrapper&quot;&gt;
-            &lt;ul class=&quot;sidebar-nav&quot;&gt;
-            &lt;!-- Example links
-            &lt;li&gt;&lt;a href=&quot;#1&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#2&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#3&quot;&gt;Link 3 this is a longer link name&lt;/a&gt;&lt;/li&gt;
-            --&gt;
-
-            &lt;li&gt;&lt;a href=&quot;#quicklink&quot;&gt;Quick Links&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#py_resource&quot;&gt;Python Resources&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#py_ed&quot;&gt;Python Education&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;#py_blog&quot;&gt;Python Blogs&lt;/a&gt;&lt;/li&gt;
-
-            &lt;/ul&gt;
-        &lt;/div&gt;
-        &lt;!-- /#sidebar-wrapper --&gt;
-
-        &lt;!-- Page Content --&gt;
-        &lt;div id=&quot;page-content-wrapper&quot;&gt;
-            &lt;div class=&quot;container-fluid&quot;&gt;
-                &lt;div class=&quot;row&quot;&gt;
-                  &lt;div class=&quot;col-lg-12&quot;&gt;
-
-&lt;p&gt;
-                 &lt;a href=&quot;#menu-toggle&quot; class=&quot;btn btn-default&quot; id=&quot;menu-toggle&quot;&gt;Toggle Menu&lt;/a&gt;
-&lt;/p&gt;
-
-                  &lt;form method=&quot;get&quot; action=&quot;https://www.google.com/search&quot;&gt;
-                    Search:
-                      &lt;input type=&quot;text&quot;   name=&quot;q&quot; maxlength=&quot;255&quot; value=&quot;&quot; style=&quot;width:800px;text-align:left;&quot; /&gt;
-                      &lt;input type=&quot;submit&quot; value=&quot;Google&quot; style=&quot;width:100px;text-align:right;&quot; /&gt;
-                  &lt;/form&gt;
-                  &lt;table border=&#39;0&#39; padding=&#39;0&#39; width=&quot;100%&quot;&gt;
-                    &lt;tr&gt;&lt;td colspan=&quot;16&quot; align=&quot;center&quot;&gt;Test Pattern&lt;/td&gt;&lt;/tr&gt;
-                    &lt;tr&gt;
-                      &lt;td bgcolor=&quot;#000000&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#111111&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#222222&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#333333&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#444444&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#555555&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#666666&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#777777&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#888888&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#999999&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#AAAAAA&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#BBBBBB&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#CCCCCC&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#DDDDDD&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#EEEEEE&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                      &lt;td bgcolor=&quot;#FFFFFF&quot;&gt;&amp;nbsp;&lt;/td&gt;
-                    &lt;/tr&gt;
-                  &lt;/table&gt;
-
-
-        &lt;!-- Example of link section
-        &lt;h2&gt;&lt;a name=&quot;1&quot;&gt;Part 1&lt;/a&gt;&lt;/h2&gt;
-        &lt;ul class=&quot;list-group&quot;&gt;
-          &lt;a class=&quot;list-group-item&quot; href=&quot;#&quot;&gt;Test Link&lt;/a&gt;
-          &lt;a class=&quot;list-group-item&quot; href=&quot;#&quot;&gt;Test Link&lt;/a&gt;
-          &lt;a class=&quot;list-group-item&quot; href=&quot;#&quot;&gt;Test Link&lt;/a&gt;
-          &lt;a class=&quot;list-group-item&quot; href=&quot;#&quot;&gt;Test Link&lt;/a&gt;
-          &lt;a class=&quot;list-group-item&quot; href=&quot;#&quot;&gt;Test Link&lt;/a&gt;
-        &lt;/ul&gt;
-        --&gt;
-        &lt;h2&gt;&lt;a name=&quot;quicklink&quot;&gt;Quick Links&lt;/a&gt;&lt;/h2&gt;
-        &lt;table border=&quot;0&quot;&gt;&lt;tr&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;icons/default.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Start Page&lt;/a&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://passwordsgenerator.net/?length=16&amp;symbols=1&amp;numbers=1&amp;lowercase=1&amp;uppercase=1&amp;similar=1&amp;ambiguous=1&amp;client=1&amp;autoselect=0&quot;&gt;&lt;img src=&quot;icons/default.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Passwords&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;diacretics.html&quot;&gt;&lt;img src=&quot;icons/keyboard.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Alt numpad keystrokes&lt;/a&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://timeanddate.com&quot;&gt;&lt;img src=&quot;icons/timeanddate.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Time and Date&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;hp15c.html&quot;&gt;&lt;img src=&quot;icons/hp15.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Calculator&lt;/a&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;editor.html&quot;&gt;&lt;img src=&quot;icons/editor.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Basic Text Editor&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://www.codecogs.com/latex/eqneditor.php&quot;&gt;&lt;img src=&quot;icons/latex_eq_edit.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Online LaTeX Equation Editor&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-        &lt;/tr&gt;&lt;/table&gt;
-        &lt;h2&gt;&lt;a name=&quot;py_resource&quot;&gt;Python Resources&lt;/a&gt;&lt;/h2&gt;
-        &lt;table border=&quot;0&quot;&gt;&lt;tr&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;http://www.lfd.uci.edu/~gohlke/pythonlibs/&quot;&gt;&lt;img src=&quot;icons/lfd.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Python Extension Packages&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;http://www.gadm.org/&quot;&gt;&lt;img src=&quot;icons/generic.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;GADM-Global Administrative Areas&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;http://chimera.labs.oreilly.com/books/1230000000393/index.html&quot;&gt;&lt;img src=&quot;icons/oreilly.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Python Cook Book&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://docs.python.org/3/&quot;&gt;&lt;img src=&quot;icons/python.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Python Docs (3.7.2)&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-        &lt;/tr&gt;&lt;/table&gt;
-        &lt;h2&gt;&lt;a name=&quot;py_ed&quot;&gt;Python Education&lt;/a&gt;&lt;/h2&gt;
-        &lt;table border=&quot;0&quot;&gt;&lt;tr&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://just-taking-a-ride.com/inside_python_dict/chapter1.html&quot;&gt;&lt;img src=&quot;icons/python.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Inside Python Dicts&lt;/a&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://training.talkpython.fm/account&quot;&gt;&lt;img src=&quot;icons/talk_python.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Talk Python Training&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;http://rhodesmill.org/brandon/talks/&quot;&gt;&lt;img src=&quot;icons/coffee.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Python Keynotes by Brandon Rhodes&lt;/a&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://www.datacamp.com&quot;&gt;&lt;img src=&quot;icons/datacamp.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Datacamp&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;http://pyvideo.org/&quot;&gt;&lt;img src=&quot;icons/pyvideo.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;PyVideo Website&lt;/a&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://just-taking-a-ride.com/inside_python_dict&quot;&gt;&lt;img src=&quot;icons/python.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Inside Dictionaries&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://training.dbader.org&quot;&gt;&lt;img src=&quot;icons/dan_bader.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Dan Bader Training&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-        &lt;/tr&gt;&lt;/table&gt;
-        &lt;h2&gt;&lt;a name=&quot;py_blog&quot;&gt;Python Blogs&lt;/a&gt;&lt;/h2&gt;
-        &lt;table border=&quot;0&quot;&gt;&lt;tr&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-            &lt;a class=&quot;list-group-item&quot; href=&quot;https://pbpython.com/&quot;&gt;&lt;img src=&quot;icons/python.png&quot; class=&quot;img-rounded&quot;&gt;&amp;nbsp;Practical Business Python&lt;/a&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-          &lt;td width=&quot;400&quot; valign=&quot;top&quot;&gt;&lt;ul class=&quot;list-group&quot;&gt;
-          &lt;/ul&gt;&lt;/td&gt;
-        &lt;/tr&gt;&lt;/table&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;!-- /#page-content-wrapper --&gt;
-
-    &lt;/div&gt;
-    &lt;!-- /#wrapper --&gt;
-
-    &lt;!-- jQuery --&gt;
-    &lt;script src=&quot;js/jquery.js&quot;&gt;&lt;/script&gt;
-
-    &lt;!-- Bootstrap Core JavaScript --&gt;
-    &lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
-
-    &lt;!-- Menu Toggle Script --&gt;
-    &lt;script&gt;
-    $(&quot;#menu-toggle&quot;).click(function(e) {
-        e.preventDefault();
-        $(&quot;#wrapper&quot;).toggleClass(&quot;toggled&quot;);
-    });
-    &lt;/script&gt;
-
-&lt;/body&gt;
-
-&lt;/html&gt;
-</div>
-      
-
-      <div id="id_ide_console">
-        
-          <div id="id_ide_console_pane_buttons">
-            <center>
-              
-                <p>This is not a Python file, you can't run it here.</p>
-              
-            </center>
-          </div>
-          <iframe style="display: none" id="id_console" name="console" class="soft_keyboard_sensitive">
-          </iframe>
-          <div style="display: none;" class="console_limit_reached">
-            <div class="container">
-    <div class="row">
-        <div class="col-md-5 col-md-offset-3 well">
-            <h1>Console limit reached :-/</h1>
-
-            <p>
-            With your current PythonAnywhere account you can have up to
-            999 consoles.  You can
-            have more if you
-            <a href="/user/bartwillems/account/">upgrade your account</a>!
-
-            <p>
-            Alternatively, if you don't feel like paying us more money, you
-            can <a href="/user/bartwillems/consoles/">kill some consoles on your Consoles page</a>.
-        </div>
-    </div>
-</div>
-
-
-          </div>
-        
-      </div>
-
-    </div>
-
-    <div id="id_go_to_line_dialog" class="pa_hidden">
-      <p class="form-inline">Line number: <input id="id_go_to_line_dialog_input" /></p>
-      <div class="dialog_buttons">
-        <button class="btn btn-default" id="id_go_to_line_dialog_ok_button">Go</button>
-        <button class="btn btn-default" id="id_go_to_line_dialog_close_button">Close</button>
-      </div>
-    </div>
-
-    <div id="id_file_changed_on_disk" class="pa_hidden">
-      <p>Are you sure you want to save it?  Alternatively, you could re-open it in a new tab to check differences</p>
-      <div class="dialog_buttons">
-        <button id="id_force_save" class="btn btn-danger">Force Save</button>
-        <button id="id_cancel_save" class="btn btn-default">Cancel</button>
-      </div>
-    </div>
-
-    <div id="id_save_as_dialog" class="pa_hidden">
-      <form class="form-inline">
-        <div class="form-group">
-          <label for="id_save_as_path">Please enter a path:</label>
-          <input id="id_save_as_path" class="form-control" style="width: 100%;" />
-        </div>
-        <img id="id_save_as_spinner" class="spinner pa_hidden" src="/static/anywhere/images/spinner-small.gif" />
-        <p>
-          <span id="id_save_as_error" class="error_message"></span>
-        </p>
-        <div class="dialog_buttons">
-          <button id="id_save_as_ok" type="submit" class="btn btn-primary">Save</button>
-          <button id="id_save_as_cancel" type="button" class="btn btn-default">Cancel</button>
-        </div>
-      </form>
-    </div>
-
-    <div class="modal fade" id="id_file_sharing_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">File Sharing options</h4>
-          </div>
-          <div class="modal-body">
-            <div id="id_file_sharing_options"></div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-
-        
-      </div>
-
-        
-
-
-        <div id="id_feedback_dialog" title="Help us improve" style="display:none">
-    <div id="id_feedback_dialog_blurb_big" class="dialog_blurb_big">
-        It's always a pleasure to hear from you!
-    </div>
-    <div id="id_feedback_dialog_blurb_small">
-        Ask us a question, or tell us what you love or hate about PythonAnywhere.<br/>
-        We'll get back to you over email ASAP.
-    </div>
-    <textarea id="id_feedback_dialog_text" rows="6"></textarea>
-    <input id="id_feedback_dialog_email_address" type="text" placeholder="Email address (optional - only necessary if you would like us to contact you)"/>
-    
-    <div id="id_feedback_dialog_error" class="pa_hidden">
-        Sorry, there was an error connecting to the server. <br/>Please try again in a few moments...
-    </div>
-    <div class="dialog_buttons">
-        <img id="id_feedback_dialog_spinner" src="/static/anywhere/images/spinner-small.gif" />
-        <button class="btn btn-primary" id="id_feedback_dialog_ok_button">OK</button>
-        <button class="btn btn-default" id="id_feedback_dialog_cancel_button">Cancel</button>
-    </div>
-</div>
-
-
-        
-            <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                ga('create', 'UA-18014859-6', 'auto');
-                ga('send', 'pageview');
-            </script>
-        
-
-        
-        <!-- preload font awesome fonts to avoid glitch when switching icons -->
-        <div style="width: 0; height: 0; overflow: hidden"><i class="fa fa-square-o fa-3x" ></i></div>
-    </body>
 </html>
