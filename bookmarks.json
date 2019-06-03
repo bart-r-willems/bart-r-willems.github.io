@@ -19,17 +19,19 @@
   { "name": "Python Education",
     "bookmark": "py_ed",
     "content": [
-      { "name": "Inside Python Dicts", "url": "https://just-taking-a-ride.com/inside_python_dict/chapter1.html", "icon": "python"},
+      { "name": "Inside Python Dictionariess", "url": "https://just-taking-a-ride.com/inside_python_dict/chapter1.html", "icon": "python"},
       { "name": "Python Keynotes by Brandon Rhodes", "url": "http://rhodesmill.org/brandon/talks/", "icon": "coffee"},
       { "name": "PyVideo Website", "url": "http://pyvideo.org/", "icon": "pyvideo"},
       { "name": "Dan Bader Training", "url": "https://training.dbader.org", "icon": "dan_bader"},
       { "name": "Talk Python Training", "url": "https://training.talkpython.fm/account", "icon": "talk_python"},
       { "name": "Datacamp", "url": "https://www.datacamp.com", "icon": "datacamp"},
-      { "name": "Inside Dictionaries", "url": "https://just-taking-a-ride.com/inside_python_dict", "icon": "python"}
     ]},
   { "name": "Python Blogs",
     "bookmark": "py_blog",
     "content": [
-      { "name": "Practical Business Python", "url": "https://pbpython.com/", "icon": "python"}
+      { "name": "Practical Business Python", "url": "https://pbpython.com/", "icon": "python"},
+      { "name": "Python Bytes Podcast", "url": "https://pythonbytes.fm/", "icon": "python"},
+      { "name": "Talk Python to Me Podcast", "url": "https://talkpython.fm/", "icon": "python"},
+      { "name": "The Python Podcast.__init__", "url": "https://www.pythonpodcast.com/", "icon": "python"},
     ]}
 ]
