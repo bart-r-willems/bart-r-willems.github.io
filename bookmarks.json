@@ -14,8 +14,7 @@
       { "name": "Python Extension Packages", "url": "http://www.lfd.uci.edu/~gohlke/pythonlibs/", "icon": "lfd"},
       { "name": "GADM-Global Administrative Areas", "url": "http://www.gadm.org/", "icon": "generic"},
       { "name": "Python Cook Book", "url": "http://chimera.labs.oreilly.com/books/1230000000393/index.html", "icon": "oreilly"},
-      { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"}
-    ]},
+      { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"}]},
   { "name": "Python Education",
     "bookmark": "py_ed",
     "content": [
@@ -24,14 +23,12 @@
       { "name": "PyVideo Website", "url": "http://pyvideo.org/", "icon": "pyvideo"},
       { "name": "Dan Bader Training", "url": "https://training.dbader.org", "icon": "dan_bader"},
       { "name": "Talk Python Training", "url": "https://training.talkpython.fm/account", "icon": "talk_python"},
-      { "name": "Datacamp", "url": "https://www.datacamp.com", "icon": "datacamp"},
-    ]},
+      { "name": "Datacamp", "url": "https://www.datacamp.com", "icon": "datacamp"}]},
   { "name": "Python Blogs",
     "bookmark": "py_blog",
     "content": [
       { "name": "Practical Business Python", "url": "https://pbpython.com/", "icon": "python"},
       { "name": "Python Bytes Podcast", "url": "https://pythonbytes.fm/", "icon": "python"},
       { "name": "Talk Python to Me Podcast", "url": "https://talkpython.fm/", "icon": "python"},
-      { "name": "The Python Podcast.__init__", "url": "https://www.pythonpodcast.com/", "icon": "python"},
-    ]}
+      { "name": "The Python Podcast.__init__", "url": "https://www.pythonpodcast.com/", "icon": "python"}]}
 ]
