@@ -36,6 +36,7 @@
       { "name": "Python Software Foundation", "url": "https://www.python.org/", "icon": "python"},
       { "name": "WinPython", "url": "https://winpython.github.io/", "icon": "winpython"},
       { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"},
+      { "name": "Pandas Documentation", "url": "https://pandas.pydata.org/pandas-docs/stable/index.html", "icon": "python"},
       { "name": "Matplotlib", "url": "http://matplotlib.org/", "icon": "matplotlib"},
       { "name": "Jupyter Notebook", "url": "http://localhost:8888/tree", "icon": "jupyter"},
       { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
@@ -129,7 +130,7 @@
       { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
       { "name": "SAP BI", "url": "http://sapbi/BOE/BI", "icon": "default"},
       { "name": "Brand Central", "url": "http://brandcentral.maersk.com", "icon": "maersk"},
-      { "name": "Palantir", "url": "https://yam.palantircloud.com/workspace/slate/documents/homepage", "icon": "palantir"}]},
+      { "name": "Palantir", "url": "https://yamportal.com/workspace/home", "icon": "palantir"}]},
   { "name": "Finance",
     "bookmark": "finance",
     "content": [
