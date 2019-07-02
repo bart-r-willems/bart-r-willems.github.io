@@ -123,8 +123,8 @@
   { "name": "Work",
     "bookmark": "work",
     "content": [
-      { "name": "Enable Global", "url": "https://teamsite.maerskgroup.com/sites/intranet/Pages/home.aspx", "icon": "maersk"},
-      { "name": "Enable NAM", "url": "https://teamsite.maerskgroup.com/sites/mli/SitePages/North-America-Region.aspx?slrid=4aee7e9e-3023-0000-1f61-8013367215bb", "icon": "maersk"},
+      { "name": "One Maersk Global", "url": "https://teamsite.maerskgroup.com/sites/OneMaersk", "icon": "maersk"},
+      { "name": "One Maersk NAM", "url": "https://teamsite.maerskgroup.com/sites/Maersk-NAM", "icon": "maersk"},
       { "name": "Office 365", "url": "http://office.maersk.com", "icon": "office365"},
       { "name": "Salesforce.com", "url": "https://maersk.my.salesforce.com", "icon": "salesforce"},
       { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
