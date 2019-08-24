@@ -55,9 +55,9 @@
       { "name": "Vimeo", "url": "http://www.vimeo.com", "icon": "vimeo"},
       { "name": "Twitch", "url": "http://www.twitch.tv/directory/following", "icon": "twitch"},
       { "name": "Overcast", "url": "https://overcast.fm/podcasts", "icon": "overcast"},
-      { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"},
-      { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "kindle"}]},
-      { "name": "Curiosity Stream", "url": "https://curiositystream.com/access/optimum"},
+      { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "kindle"},
+      { "name": "Curiosity Stream", "url": "https://curiositystream.com/access/optimum", "icon": "default"},
+      { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"}]},
   { "name": "Stationary",
     "bookmark": "stationary",
     "content": [
