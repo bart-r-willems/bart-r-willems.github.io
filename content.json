@@ -2,6 +2,7 @@
     "bookmark": "quicklink",
     "content": [
       { "name": "Bookmarks", "url": "bookmarks.html", "icon": "default"},
+      { "name": "Inoreader RSS", "url": "https://www.inoreader.com/all_articles", "icon": "inoreader"},
       { "name": "Clock", "url": "clock/index.html", "icon": "station_clock"},
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
