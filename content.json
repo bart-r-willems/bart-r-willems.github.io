@@ -59,7 +59,8 @@
       { "name": "Overcast", "url": "https://overcast.fm/podcasts", "icon": "overcast"},
       { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "kindle"},
       { "name": "Curiosity Stream", "url": "https://curiositystream.com/access/optimum", "icon": "curiosity_stream"},
-      { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"}]},
+      { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"},
+      { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"}]},
   { "name": "Stationary",
     "bookmark": "stationary",
     "content": [
