@@ -1,0 +1,33 @@
+[ { "name": "Quick Links",
+    "bookmark": "quicklink",
+    "content": [
+      { "name": "Bookmarks", "url": "bookmarks.html", "icon": "default"},
+      { "name": "Clock", "url": "clock/index.html", "icon": "station_clock"},
+      { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
+      { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
+      { "name": "Calculator", "url": "hp15c.html", "icon": "hp15"},
+      { "name": "WeTransfer", "url": "https://www.wetransfer.com", "icon": "wetransfer"},
+      { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
+      { "name": "OneDrive", "url": "https://onedrive.live.com", "icon": "onedrive"},
+      { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
+      { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
+      { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"}]},
+  { "name": "Work",
+    "bookmark": "work",
+    "content": [
+      { "name": "One Maersk Global", "url": "https://teamsite.maerskgroup.com/sites/OneMaersk", "icon": "maersk"},
+      { "name": "One Maersk NAM", "url": "https://teamsite.maerskgroup.com/sites/Maersk-NAM", "icon": "maersk"},
+      { "name": "Office 365", "url": "http://office.maersk.com", "icon": "office365"},
+      { "name": "Salesforce.com", "url": "https://maersk.my.salesforce.com", "icon": "salesforce"},
+      { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
+      { "name": "PIERS", "url": "mp2.piers.com", "icon": "default"},
+      { "name": "Brand Central", "url": "http://brandcentral.maersk.com", "icon": "maersk"}]},
+  { "name": "Reference",
+    "bookmark": "ref",
+    "content": [
+      { "name": "Alt Numpad Keys", "url": "diacretics.html", "icon": "keyboard"},
+      { "name": "Facebook Emoji Codes", "url": "http://www.symbols-n-emoticons.com/p/facebook-emoticons-list.html", "icon": "emoji"},
+      { "name": "CIA World Factbook", "url": "https://www.cia.gov/library/publications/the-world-factbook/index.html", "icon": "cia"},
+      { "name": "Merriam Webster Dictionary", "url": "http://www.merriam-webster.com", "icon": "merriam_webster"},
+      { "name": "Wikipedia", "url": "http://www.wikipedia.org", "icon": "wikipedia"}]}
+]
