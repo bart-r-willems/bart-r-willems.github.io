@@ -26,7 +26,7 @@
       { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
       { "name": "SAP BI", "url": "http://sapbi/BOE/BI", "icon": "default"},
       { "name": "Brand Central", "url": "http://brandcentral.maersk.com", "icon": "maersk"},
-      { "name": "PIERS", "url": "https://mp2.piers.com", "icon": "ihs-markit"},
+      { "name": "PIERS", "url": "https://mp2.piers.com", "icon": "ihs_markit"},
       { "name": "Palantir", "url": "https://yamportal.com/workspace/home", "icon": "palantir"}]},
   { "name": "News",
     "bookmark": "news",
