@@ -20,7 +20,7 @@
       { "name": "Office 365", "url": "http://office.maersk.com", "icon": "office365"},
       { "name": "Salesforce.com", "url": "https://maersk.my.salesforce.com", "icon": "salesforce"},
       { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
-      { "name": "PIERS", "url": "https://mp2.piers.com", "icon": "ihs-markit"},
+      { "name": "PIERS", "url": "https://mp2.piers.com", "icon": "ihs_markit"},
       { "name": "Brand Central", "url": "http://brandcentral.maersk.com", "icon": "maersk"}]},
   { "name": "Reference",
     "bookmark": "ref",
