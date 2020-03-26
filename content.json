@@ -19,10 +19,10 @@
   { "name": "Work",
     "bookmark": "work",
     "content": [
-      { "name": "One Maersk Global", "url": "https://teamsite.maerskgroup.com/sites/OneMaersk", "icon": "maersk"},
-      { "name": "One Maersk NAM", "url": "https://teamsite.maerskgroup.com/sites/Maersk-NAM", "icon": "maersk"},
       { "name": "Office 365", "url": "http://office.maersk.com", "icon": "office365"},
       { "name": "Salesforce.com", "url": "https://maersk.my.salesforce.com", "icon": "salesforce"},
+      { "name": "One Maersk Global", "url": "https://teamsite.maerskgroup.com/sites/OneMaersk", "icon": "maersk"},
+      { "name": "One Maersk NAM", "url": "https://teamsite.maerskgroup.com/sites/Maersk-NAM", "icon": "maersk"},
       { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
       { "name": "SAP BI", "url": "http://sapbi/BOE/BI", "icon": "default"},
       { "name": "Brand Central", "url": "http://brandcentral.maersk.com", "icon": "maersk"},
