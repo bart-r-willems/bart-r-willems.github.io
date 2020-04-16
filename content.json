@@ -31,6 +31,7 @@
   { "name": "News",
     "bookmark": "news",
     "content": [
+      { "name": "Corona Tracker", "url": "https://www.ft.com/coronavirus-latest", "icon": "ft"},
       { "name": "Ino Reader", "url": "http://www.inoreader.com/", "icon": "inoreader"},
       { "name": "NJ.com", "url": "http://www.nj.com", "icon": "njcom"},
       { "name": "North Jersey", "url": "http://www.northjersey.com", "icon": "northjersey"},
@@ -120,7 +121,8 @@
       { "name": "KSP Reddit", "url": "https://www.reddit.com/r/KerbalSpaceProgram/", "icon": "reddit"},
       { "name": "Kerbal Academy on Reddit", "url": "https://www.reddit.com/r/KerbalAcademy/", "icon": "reddit"},
       { "name": "Clash of Clans Wiki", "url": "http://clashofclans.wikia.com/wiki/Clash_of_Clans_Wiki", "icon": "clash_of_clans"},
-      { "name": "Astroneer Forum", "url": "http://forum.systemera.net/", "icon": "astroneer"}]},
+      { "name": "Astroneer Forum", "url": "http://forum.systemera.net/", "icon": "astroneer"},
+      { "name": "Astroneer Wiki", "url": "https://astroneer.gamepedia.com/Astroneer_Wiki", "icon": "astroneer"}]},
   { "name": "Weather and Traffic",
     "bookmark": "traffic",
     "content": [
