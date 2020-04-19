@@ -15,6 +15,7 @@
       { "name": "Google Play", "url": "https://play.google.com", "icon": "google_play"},
       { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
+      { "name": "Noisli", "url": "https://www.noisli.com", "icon": "default"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"}]},
   { "name": "Work",
     "bookmark": "work",
