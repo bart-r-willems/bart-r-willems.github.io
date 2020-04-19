@@ -46,6 +46,7 @@
   { "name": "Python",
     "bookmark": "python",
     "content": [
+      { "name": "Real Python Website", "url": "https://realpython.com/", "icon": "python"},
       { "name": "Python Software Foundation", "url": "https://www.python.org/", "icon": "python"},
       { "name": "WinPython", "url": "https://winpython.github.io/", "icon": "winpython"},
       { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"},
