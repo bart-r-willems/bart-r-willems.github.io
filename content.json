@@ -62,8 +62,8 @@
     "bookmark": "retail",
     "content": [
       { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon"},
-      { "name": "Craigslist", "url": "http://newjersey.craigslist.org/", "icon": "craigslist"},
-      { "name": "Hipmunk Travel Booking Site", "url": "http://www.hipmunk.com/", "icon": "hipmunk"}]},
+      { "name": "van der Veen", "url": "https://thedutchstore.com", "icon": "vanderveen"},
+      { "name": "Microcenter", "url": "https://www.microcenter.com", "icon": "microcenter"}]},
   { "name": "Entertainment",
     "bookmark": "entertainment",
     "content": [
