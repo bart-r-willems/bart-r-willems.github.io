@@ -1,0 +1,642 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>HP-35 RPN Calculator</title>
+<!--
+  HP-35 simulator in JavaScript
+  for the HP Museum (http://hpmuseum.org)
+  by Neil Fraser (http://neil.fraser.name)
+  March 2004, Elgin, Scotland.
+
+  This program is free software; you can redistribute it and/or modify it under the terms of version 2 of the GNU General Public License as published by the Free Software Foundation.
+  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  See the GNU General Public License for more details.  http://www.gnu.org/
+-->
+</head>
+
+<body topmargin="0" marginwidth="0" marginheight="0" leftmargin="0">
+
+<table width="288" height="528" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td colspan="17" width="288" height="51"><img src="hp-35/hp-top.jpg" width="288" height="51"></td>
+</tr>
+
+<tr>
+<td width="44" height="18"><img src="hp-35/hp-left.jpg" width="44" height="18"></td>
+<td width="13" height="18"><img name="d0" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d1" src="hp-35/led-1.gif" width="13" height="18"></td>
+<td width="13" height="18"><img name="d2" src="hp-35/led-decimal.gif" width="13" height="18"></td>
+<td width="13" height="18"><img name="d3" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d4" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d5" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d6" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d7" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d8" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d9" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d10" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d11" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d12" src="hp-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d13" src="hp-35/led-0.gif" width="13" height="18"></td>
+<td width="13" height="18"><img name="d14" src="hp-35/led-5.gif" width="13" height="18"></td>
+<td width="49" height="18"><img src="hp-35/hp-right.jpg" width="49" height="18"></td>
+</tr>
+
+<tr>
+<td colspan="17" width="288" height="41"><img src="hp-35/hp-middle.jpg" width="288" height="41"></td>
+</tr>
+
+<tr>
+<td colspan="17" width="288" height="21"><img name="power_img" src="hp-35/hp-on.jpg" usemap="#powermap" width="288" height="21" border="0"></td>
+</tr>
+
+<tr>
+<td colspan="17" width="288" height="397"><img src="hp-35/hp-keys.jpg" usemap="#keymap" width="288" height="397" border="0"></td>
+</tr>
+</tbody></table>
+
+<script language="JavaScript1.1">
+<!--
+function ExplorerFix() {
+  // Remove the ugly dotted lines from Explorer's image map
+  for (a in document.links)
+    document.links[a].onfocus = document.links[a].blur;
+}
+if (document.all) {
+  document.onmousedown = ExplorerFix;
+}
+
+
+// Power mode
+var power_mode = 1;
+power_on = new Image(288, 21);
+power_on.src="hp-35/hp-on.jpg";
+power_off = new Image(288, 21);
+power_off.src="hp-35/hp-off.jpg";
+
+function power_switch() {
+  power_mode = !power_mode;
+  document.power_img.src = (power_mode ? power_on.src : power_off.src);
+  key_clr();
+}
+
+// Preload the digits
+led_a = new Image(13, 18); led_a.src="hp-35/led.jpg";
+led_b = new Image(13, 18); led_b.src="hp-35/led-decimal.gif";
+led_c = new Image(13, 18); led_c.src="hp-35/led-minus.gif";
+led_d = new Image(13, 18); led_d.src="hp-35/led-0.gif";
+led_e = new Image(13, 18); led_e.src="hp-35/led-1.gif";
+led_f = new Image(13, 18); led_f.src="hp-35/led-2.gif";
+led_g = new Image(13, 18); led_g.src="hp-35/led-3.gif";
+led_h = new Image(13, 18); led_h.src="hp-35/led-4.gif";
+led_i = new Image(13, 18); led_i.src="hp-35/led-5.gif";
+led_j = new Image(13, 18); led_j.src="hp-35/led-6.gif";
+led_k = new Image(13, 18); led_k.src="hp-35/led-7.gif";
+led_l = new Image(13, 18); led_l.src="hp-35/led-8.gif";
+led_m = new Image(13, 18); led_m.src="hp-35/led-9.gif";
+led_n = new Image(13, 18); led_n.src="hp-35/led-error1.gif";
+led_o = new Image(13, 18); led_o.src="hp-35/led-error2.gif";
+
+function display() {
+  // Print the contents of 'd' onto the LED display.
+  var srcs = new Array();
+  for (count = 0; count < 16 ; count++) {
+    digit = d.charAt(count);
+    if (digit && "0123456789".indexOf(digit) != -1)
+      srcs[count] = "hp-35/led-"+digit+".gif";
+    else if ("." == digit)
+      srcs[count] = "hp-35/led-decimal.gif";
+    else if ("-" == digit)
+      srcs[count] = "hp-35/led-minus.gif";
+    else if ("X" == digit)
+      srcs[count] = "hp-35/led-error1.gif";
+    else if ("x" == digit)
+      srcs[count] = "hp-35/led-error2.gif";
+    else
+      srcs[count] = "hp-35/led.jpg";
+    if (!power_mode)
+      srcs[count] = "hp-35/led.jpg";
+  }
+  document.d0.src = srcs[0];
+  document.d1.src = srcs[1];
+  document.d2.src = srcs[2];
+  document.d3.src = srcs[3];
+  document.d4.src = srcs[4];
+  document.d5.src = srcs[5];
+  document.d6.src = srcs[6];
+  document.d7.src = srcs[7];
+  document.d8.src = srcs[8];
+  document.d9.src = srcs[9];
+  document.d10.src = srcs[10];
+  document.d11.src = srcs[11];
+  document.d12.src = srcs[12];
+  document.d13.src = srcs[13];
+  document.d14.src = srcs[14];
+}
+
+// The Global Registers
+var x; // 1st register (mapped onto the display)
+var y; // 2nd register
+var z; // 3rd register
+var t; // 4th register
+var s; // memory
+var d; // display (text version of x)
+
+// The Typing Mode
+var mode = 0;
+//-1 - Typing a digit will replace x, and be negative (CH S)
+// 0 - Typing a digit will replace x
+// 1 - Typing a digit will append to x
+// 2 - Typing a digit will append to x after decimal
+// 3 - Typing a digit will appear in the exponent
+
+// The Arc Mode
+var arc = 0;
+
+// "The stack is automatically raised by an entry into x or by RCL
+// unless the entry immediately follows CLx, STO or ENTER."
+var auto_enter = 0;
+
+function x2d() {
+  // Convert the JavaScript number 'x' into the display digits for 'd', then display it.
+  // e.g.  6 => ' 6.'
+  // Sometimes has the side-effect of resetting 'x' to a legal value.
+  var MaxFloat = 9.999999999 * Math.pow(10, 99);
+  if (isNaN(x) || x == Number.NEGATIVE_INFINITY || x == Number.POSITIVE_INFINITY) {
+    // "improper operations flash display"
+    d = ' Xx';
+    x = 0;
+  } else if (x >= MaxFloat) {
+    // posative overflow is written as maximum number
+    d = ' 9.999999999 99';
+    x = MaxFloat;
+  } else if (-MaxFloat >= x) {
+    // negative overflow is written as minimum number
+    d = '-9.999999999 99';
+    x = -MaxFloat;
+  } else {
+    // a valid number
+    var ext = '';
+    d = x;
+    if (Math.abs(d) > 9999999999) {
+      // switch to exponential notation
+      ext = 0;
+      while (Math.abs(d) >= 10) {
+        ext++;
+        d = d/10;
+      }
+      ext = ' '+ext;
+    } else if (d != 0 && Math.abs(d) < .01) {
+      // switch to exponential notation
+      ext = 0;
+      while (Math.abs(d) < 1) {
+        ext++;
+        d = d*10;
+      }
+      if (ext > 99) {
+        // underflow is written as zero
+        d = 0;
+        ext = '';
+        x = 0;
+      } else if (ext > 9) {
+        ext = '-' + ext;
+      } else {
+        ext = '-0' + ext;
+      }
+    }
+    if (!ext) // Round away some rounding errors on simple numbers.
+      d = Math.round(d*10000000000)/10000000000;
+    if (x < 0)
+      d = '-'+(-d);
+    else
+      d = ' '+d;
+    if (d.indexOf('.') == -1)
+      d = d + '.';
+    if (d.length > 3 && d.charAt(1) == '0' && d.charAt(2) == '.')
+      d = d.charAt(0) + d.substring(2);
+    d = (d+"               ").substring(0, 12)+ext;
+  }
+  // Display the result.
+  display();
+}
+
+function d2x() {
+  // Convert the display digits for 'd' into the JavaScript number 'x'.
+  // e.g.  ' 06.0' => 6
+  x = parseFloat((d+"               ").substring(0, 12));
+  if (isNaN(x)) x = 0;
+
+  var ext = (d+"               ").substring(12, 15);
+  ext = parseInt(ext, 10);
+
+  if (!isNaN(ext))
+    x = x * Math.pow(10, ext);
+}
+
+function key_clx() {
+  x = 0;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 0;
+}
+
+function key_clr() {
+  y = 0;
+  z = 0;
+  t = 0;
+  s = 0;
+  key_clx();
+}
+
+function key_enter() {
+  d2x();
+  t=z;
+  z=y;
+  y=x;
+  mode = 0;
+  arc = 0;
+  auto_enter = 0;
+}
+
+function key_r() {
+  d2x();
+  temp = x;
+  x = y;
+  y = z;
+  z = t;
+  t = temp
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_xy() {
+  d2x();
+  temp = x;
+  x = y;
+  y = temp;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_sto() {
+  d2x();
+  s = x;
+  mode = 0;
+  arc = 0;
+  auto_enter = 0;
+}
+
+function key_rcl() {
+  if (auto_enter) key_enter();
+  x = s;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_pi() {
+  // orig: if (auto_enter) key_enter();
+  key_enter(); // Bug fix from Hans Klaver
+  x = 3.141592654;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_add() {
+  d2x();
+  x = y + x;
+  y = z;
+  z = t;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_subtract() {
+  d2x();
+  x = y - x;
+  y = z;
+  z = t;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_multiply() {
+  d2x();
+  x = y * x;
+  y = z;
+  z = t;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_divide() {
+  d2x();
+  x = y / x;
+  y = z;
+  z = t;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_sqrt() {
+  d2x();
+  x = Math.sqrt(x);
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_pow() {
+  d2x();
+  x = Math.pow(x, y);
+  y = z;
+  z = t;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_epow() {
+  d2x();
+  x = Math.pow(Math.E, x);
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_ln() {
+  d2x();
+  x = Math.log(x);
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_log() {
+  d2x();
+  x = Math.LOG10E * Math.log(x);
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_inv() {
+  d2x();
+  x = 1/x;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_arc() {
+  arc = 1;
+  auto_enter = 1;
+}
+
+function key_sin() {
+  d2x();
+  if (arc == 1) {
+    angle = Math.asin(x);
+    x = angle * 180 / Math.PI;
+  } else {
+    angle = Math.PI / 180 * x;
+    x = Math.sin(angle);
+  }
+  t = z;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_cos() {
+  d2x();
+  if (arc == 1) {
+    angle = Math.acos(x);
+    x = angle * 180 / Math.PI;
+  } else {
+    angle = Math.PI / 180 * x;
+    x = Math.cos(angle);
+  }
+  t = z;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_tan() {
+  d2x();
+  if (arc == 1) {
+    angle = Math.atan(x);
+    x = angle * 180 / Math.PI;
+  } else {
+    angle = Math.PI / 180 * x;
+    x = Math.tan(angle);
+  }
+  t = z;
+  x2d();
+  mode = 0;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_eex() {
+  d2x();
+  if (x == 0)
+    key_num(1);
+  // 'EEX' automatically presses '1' for you if the display equals zero.
+  mode = 3;
+  arc = 0;
+  auto_enter = 1;
+}
+
+function key_chs() {
+  if (mode == 3) {
+    // Exponential mode
+    if ((d+"               ").substring(12, 15) == "   ") {
+      // Only works if exponent is empty.
+      d = (d+"               ").substring(0, 12)+"-00";
+      display();
+    }
+  } else {
+    // Integer and decimal modes
+    if (d.charAt(0) == "-")
+      d = " "+d.substring(1);
+    else
+      d = "-"+d.substring(1);
+    display();
+    if (mode == 0) // New number mode
+      mode = -1; // HP-35 has a very broken CHS implementation
+  }
+  arc = 0;
+}
+
+function key_decimal() {
+  if (mode == 4) {
+    // The decimal key == the 0 key in exponent mode.  Interesting.
+    key_num(0);
+  } else {
+    if (mode == -1) {
+      x2d(); // restore old number (prior to CH S)
+      if (auto_enter) key_enter();
+      d = '-.';
+      x = 0;
+    } else if (mode == 0) {
+      if (auto_enter) key_enter();
+      d = ' .';
+      x = 0;
+    }
+    display();
+    mode = 2;
+    arc = 0;
+  }
+}
+
+function key_num(num) {
+  if (mode == 3) {
+    // Exponential mode
+    var exp = (d+"                ").charAt(14);
+    if (exp == " ") exp = '0';
+    d = (d+"                ").substring(0, 13)+exp+num;
+  } else if (mode == -1) {
+    x2d(); // restore old number (prior to CH S)
+    if (auto_enter) key_enter();
+    d = '-'+num+'.';
+    mode = 1;
+  } else if (mode == 0) {
+    if (auto_enter) key_enter();
+    d = ' '+num+'.';
+    mode = 1;
+  } else if (d.length >= 12) {
+    return; // Too many digits.
+  } else if (mode == 1) {
+    // Integer mode
+    dec = d.indexOf('.');
+    d = d.substring(0, dec) + num + '.';
+  } else if (mode == 2) {
+    // Decimal mode
+    d = d + num;
+  }
+  display();
+  d2x();
+  arc = 0;
+}
+
+function about() {
+  alert('HP-35 simulator in JavaScript\nfor the HP Museum (http://hpmuseum.org)\nby Neil Fraser (http://neil.fraser.name)\nMarch 2004, Elgin, Scotland.');
+}
+
+key_clr();
+
+// ================================================================
+// Added: process keyboard input
+// ================================================================
+document.addEventListener("keydown", function onPress(event) {
+	//var key = event.which || event.keyCode || event.charCode;
+	//if (key == 8) alert('backspace');
+	// stamdard numbers
+    if (event.key === "1") { key_num(1); }
+	if (event.key === "2") { key_num(2); }
+	if (event.key === "3") { key_num(3); }
+	if (event.key === "4") { key_num(4); }
+	if (event.key === "5") { key_num(5); }
+	if (event.key === "6") { key_num(6); }
+	if (event.key === "7") { key_num(7); }
+	if (event.key === "8") { key_num(8); }
+	if (event.key === "9") { key_num(9); }
+	if (event.key === "0") { key_num(0); }
+	if (event.key === ".") { key_decimal(); }
+	// basic math operators
+	if (event.key === "+") { key_add(); }
+	if (event.key === "-") { key_subtract(); }
+	if (event.key === "*") { key_multiply(0); }
+	if (event.key === "/") { key_divide(0); }
+	// "special" keys
+	if (event.key === "Enter") {key_enter(); }
+	if (event.key === "Backspace") { key_clx(); }
+	if (event.key === "Delete") { key_clr(); }
+	if (event.key === "X" || event.key === "x") {key_xy(); }
+	if (event.key === "C" || event.key === "c") {key_chs(); }
+	if (event.key === "E" || event.key === "e") {key_eex(); }
+	
+});
+
+//-->
+</script>
+
+<map name="powermap">
+<area shape="RECT" coords="65,1,100,21" href="javascript:power_switch()" title="OFF/ON">
+</map>
+
+<map name="keymap">
+<area shape="RECT" coords="42,14,77,41" href="javascript:key_pow()" title="x^y">
+<area shape="RECT" coords="84,14,119,41" href="javascript:key_log()" title="LOG">
+<area shape="RECT" coords="124,14,159,41" href="javascript:key_ln()" title="LN">
+<area shape="RECT" coords="165,14,200,41" href="javascript:key_epow()" title="e^x">
+<area shape="RECT" coords="206,14,241,41" href="javascript:key_clr()" title="CLEAR ALL (delete)">
+
+<area shape="RECT" coords="42,57,77,84" href="javascript:key_sqrt()" title="ROOT">
+<area shape="RECT" coords="84,57,119,84" href="javascript:key_arc()" title="ARC">
+<area shape="RECT" coords="124,57,159,84" href="javascript:key_sin()" title="SIN">
+<area shape="RECT" coords="165,57,200,84" href="javascript:key_cos()" title="COS">
+<area shape="RECT" coords="206,57,241,84" href="javascript:key_tan()" title="TAN">
+
+<area shape="RECT" coords="42,100,77,127" href="javascript:key_inv()" title="1/x">
+<area shape="RECT" coords="84,100,119,127" href="javascript:key_xy()" title="x&lt;&gt;y (x)">
+<area shape="RECT" coords="124,100,159,127" href="javascript:key_r()" title="R">
+<area shape="RECT" coords="165,100,200,127" href="javascript:key_sto()" title="STO">
+<area shape="RECT" coords="206,100,241,127" href="javascript:key_rcl()" title="RCL">
+
+<area shape="RECT" coords="42,142,119,169" href="javascript:key_enter()" title="ENTER">
+<area shape="RECT" coords="124,142,159,169" href="javascript:key_chs()" title="CHANGE SIGN (c)">
+<area shape="RECT" coords="165,142,200,169" href="javascript:key_eex()" title="E EX (e)">
+<area shape="RECT" coords="206,142,241,169" href="javascript:key_clx()" title="CLEAR x (backspace)">
+
+<area shape="RECT" coords="42,185,71,214" href="javascript:key_subtract()" title="-">
+<area shape="RECT" coords="84,185,124,214" href="javascript:key_num(7)" title="7">
+<area shape="RECT" coords="142,185,182,214" href="javascript:key_num(8)" title="8">
+<area shape="RECT" coords="201,185,241,214" href="javascript:key_num(9)" title="9">
+
+<area shape="RECT" coords="42,228,71,257" href="javascript:key_add()" title="+">
+<area shape="RECT" coords="84,228,124,257" href="javascript:key_num(4)" title="4">
+<area shape="RECT" coords="142,228,182,257" href="javascript:key_num(5)" title="5">
+<area shape="RECT" coords="201,228,241,257" href="javascript:key_num(6)" title="6">
+
+<area shape="RECT" coords="42,271,71,300" href="javascript:key_multiply()" title="*">
+<area shape="RECT" coords="84,271,124,300" href="javascript:key_num(1)" title="1">
+<area shape="RECT" coords="142,271,182,300" href="javascript:key_num(2)" title="2">
+<area shape="RECT" coords="201,271,241,300" href="javascript:key_num(3)" title="3">
+
+<area shape="RECT" coords="42,313,71,342" href="javascript:key_divide()" title="/">
+<area shape="RECT" coords="84,313,124,342" href="javascript:key_num(0)" title="0">
+<area shape="RECT" coords="142,313,182,342" href="javascript:key_decimal()" title=".">
+<area shape="RECT" coords="201,313,241,342" href="javascript:key_pi()" title="pi">
+
+<area shape="RECT" coords="44,363,70,373" href="javascript:about()" title="About...">
+</map>
+
+
+
+
+</body></html>

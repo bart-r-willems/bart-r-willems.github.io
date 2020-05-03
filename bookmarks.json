@@ -3,7 +3,7 @@
     "content": [
       { "name": "Start Page", "url": "index.html", "icon": "default"},
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
-      { "name": "Calculator", "url": "hp15c.html", "icon": "hp15"},
+      { "name": "HP-15C Calculator", "url": "hp15c.html", "icon": "hp15"},
       { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
       { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
