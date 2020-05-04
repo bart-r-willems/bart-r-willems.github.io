@@ -17,39 +17,39 @@
 
 <table width="288" height="528" cellspacing="0" cellpadding="0" border="0">
 <tbody><tr>
-<td colspan="17" width="288" height="51"><img src="hp-35/hp-top.jpg" width="288" height="51"></td>
+<td colspan="17" width="288" height="51"><img src="HP-35/hp-top.jpg" width="288" height="51"></td>
 </tr>
 
 <tr>
-<td width="44" height="18"><img src="hp-35/hp-left.jpg" width="44" height="18"></td>
-<td width="13" height="18"><img name="d0" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d1" src="hp-35/led-1.gif" width="13" height="18"></td>
-<td width="13" height="18"><img name="d2" src="hp-35/led-decimal.gif" width="13" height="18"></td>
-<td width="13" height="18"><img name="d3" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d4" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d5" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d6" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d7" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d8" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d9" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d10" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d11" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d12" src="hp-35/led.jpg" width="13" height="18"></td>
-<td width="13" height="18"><img name="d13" src="hp-35/led-0.gif" width="13" height="18"></td>
-<td width="13" height="18"><img name="d14" src="hp-35/led-5.gif" width="13" height="18"></td>
-<td width="49" height="18"><img src="hp-35/hp-right.jpg" width="49" height="18"></td>
+<td width="44" height="18"><img src="HP-35/hp-left.jpg" width="44" height="18"></td>
+<td width="13" height="18"><img name="d0" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d1" src="HP-35/led-1.gif" width="13" height="18"></td>
+<td width="13" height="18"><img name="d2" src="HP-35/led-decimal.gif" width="13" height="18"></td>
+<td width="13" height="18"><img name="d3" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d4" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d5" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d6" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d7" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d8" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d9" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d10" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d11" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d12" src="HP-35/led.jpg" width="13" height="18"></td>
+<td width="13" height="18"><img name="d13" src="HP-35/led-0.gif" width="13" height="18"></td>
+<td width="13" height="18"><img name="d14" src="HP-35/led-5.gif" width="13" height="18"></td>
+<td width="49" height="18"><img src="HP-35/hp-right.jpg" width="49" height="18"></td>
 </tr>
 
 <tr>
-<td colspan="17" width="288" height="41"><img src="hp-35/hp-middle.jpg" width="288" height="41"></td>
+<td colspan="17" width="288" height="41"><img src="HP-35/hp-middle.jpg" width="288" height="41"></td>
 </tr>
 
 <tr>
-<td colspan="17" width="288" height="21"><img name="power_img" src="hp-35/hp-on.jpg" usemap="#powermap" width="288" height="21" border="0"></td>
+<td colspan="17" width="288" height="21"><img name="power_img" src="HP-35/hp-on.jpg" usemap="#powermap" width="288" height="21" border="0"></td>
 </tr>
 
 <tr>
-<td colspan="17" width="288" height="397"><img src="hp-35/hp-keys.jpg" usemap="#keymap" width="288" height="397" border="0"></td>
+<td colspan="17" width="288" height="397"><img src="HP-35/hp-keys.jpg" usemap="#keymap" width="288" height="397" border="0"></td>
 </tr>
 </tbody></table>
 
@@ -68,9 +68,9 @@ if (document.all) {
 // Power mode
 var power_mode = 1;
 power_on = new Image(288, 21);
-power_on.src="hp-35/hp-on.jpg";
+power_on.src="HP-35/hp-on.jpg";
 power_off = new Image(288, 21);
-power_off.src="hp-35/hp-off.jpg";
+power_off.src="HP-35/hp-off.jpg";
 
 function power_switch() {
   power_mode = !power_mode;
@@ -79,21 +79,21 @@ function power_switch() {
 }
 
 // Preload the digits
-led_a = new Image(13, 18); led_a.src="hp-35/led.jpg";
-led_b = new Image(13, 18); led_b.src="hp-35/led-decimal.gif";
-led_c = new Image(13, 18); led_c.src="hp-35/led-minus.gif";
-led_d = new Image(13, 18); led_d.src="hp-35/led-0.gif";
-led_e = new Image(13, 18); led_e.src="hp-35/led-1.gif";
-led_f = new Image(13, 18); led_f.src="hp-35/led-2.gif";
-led_g = new Image(13, 18); led_g.src="hp-35/led-3.gif";
-led_h = new Image(13, 18); led_h.src="hp-35/led-4.gif";
-led_i = new Image(13, 18); led_i.src="hp-35/led-5.gif";
-led_j = new Image(13, 18); led_j.src="hp-35/led-6.gif";
-led_k = new Image(13, 18); led_k.src="hp-35/led-7.gif";
-led_l = new Image(13, 18); led_l.src="hp-35/led-8.gif";
-led_m = new Image(13, 18); led_m.src="hp-35/led-9.gif";
-led_n = new Image(13, 18); led_n.src="hp-35/led-error1.gif";
-led_o = new Image(13, 18); led_o.src="hp-35/led-error2.gif";
+led_a = new Image(13, 18); led_a.src="HP-35/led.jpg";
+led_b = new Image(13, 18); led_b.src="HP-35/led-decimal.gif";
+led_c = new Image(13, 18); led_c.src="HP-35/led-minus.gif";
+led_d = new Image(13, 18); led_d.src="HP-35/led-0.gif";
+led_e = new Image(13, 18); led_e.src="HP-35/led-1.gif";
+led_f = new Image(13, 18); led_f.src="HP-35/led-2.gif";
+led_g = new Image(13, 18); led_g.src="HP-35/led-3.gif";
+led_h = new Image(13, 18); led_h.src="HP-35/led-4.gif";
+led_i = new Image(13, 18); led_i.src="HP-35/led-5.gif";
+led_j = new Image(13, 18); led_j.src="HP-35/led-6.gif";
+led_k = new Image(13, 18); led_k.src="HP-35/led-7.gif";
+led_l = new Image(13, 18); led_l.src="HP-35/led-8.gif";
+led_m = new Image(13, 18); led_m.src="HP-35/led-9.gif";
+led_n = new Image(13, 18); led_n.src="HP-35/led-error1.gif";
+led_o = new Image(13, 18); led_o.src="HP-35/led-error2.gif";
 
 function display() {
   // Print the contents of 'd' onto the LED display.
@@ -101,19 +101,19 @@ function display() {
   for (count = 0; count < 16 ; count++) {
     digit = d.charAt(count);
     if (digit && "0123456789".indexOf(digit) != -1)
-      srcs[count] = "hp-35/led-"+digit+".gif";
+      srcs[count] = "HP-35/led-"+digit+".gif";
     else if ("." == digit)
-      srcs[count] = "hp-35/led-decimal.gif";
+      srcs[count] = "HP-35/led-decimal.gif";
     else if ("-" == digit)
-      srcs[count] = "hp-35/led-minus.gif";
+      srcs[count] = "HP-35/led-minus.gif";
     else if ("X" == digit)
-      srcs[count] = "hp-35/led-error1.gif";
+      srcs[count] = "HP-35/led-error1.gif";
     else if ("x" == digit)
-      srcs[count] = "hp-35/led-error2.gif";
+      srcs[count] = "HP-35/led-error2.gif";
     else
-      srcs[count] = "hp-35/led.jpg";
+      srcs[count] = "HP-35/led.jpg";
     if (!power_mode)
-      srcs[count] = "hp-35/led.jpg";
+      srcs[count] = "HP-35/led.jpg";
   }
   document.d0.src = srcs[0];
   document.d1.src = srcs[1];
