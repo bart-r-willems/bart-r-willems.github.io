@@ -34,6 +34,7 @@
     "bookmark": "news",
     "content": [
       { "name": "Corona Tracker", "url": "https://www.ft.com/coronavirus-latest", "icon": "ft"},
+	  { "name": "Corona Dashboard", "url": "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6", "icon": "default"},
       { "name": "Ino Reader", "url": "http://www.inoreader.com/", "icon": "inoreader"},
       { "name": "NJ.com", "url": "http://www.nj.com", "icon": "njcom"},
       { "name": "North Jersey", "url": "http://www.northjersey.com", "icon": "northjersey"},
