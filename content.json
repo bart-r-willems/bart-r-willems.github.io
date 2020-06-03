@@ -18,18 +18,6 @@
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
       { "name": "Blog", "url": "https://bart-r-willems.github.io/opensource_review", "icon": "github"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"}]},
-  { "name": "Work",
-    "bookmark": "work",
-    "content": [
-      { "name": "Office 365", "url": "http://office.maersk.com", "icon": "office365"},
-      { "name": "Salesforce.com", "url": "https://maersk.my.salesforce.com", "icon": "salesforce"},
-      { "name": "One Maersk Global", "url": "https://teamsite.maerskgroup.com/sites/OneMaersk", "icon": "maersk"},
-      { "name": "One Maersk NAM", "url": "https://teamsite.maerskgroup.com/sites/Maersk-NAM", "icon": "maersk"},
-      { "name": "Marketing Cloud", "url": "https://www.marketingcloud.com", "icon": "salesforce"},
-      { "name": "SAP BI", "url": "http://sapbi/BOE/BI", "icon": "default"},
-      { "name": "Brand Central", "url": "http://brandcentral.maersk.com", "icon": "maersk"},
-      { "name": "PIERS", "url": "https://mp2.piers.com", "icon": "ihs_markit"},
-      { "name": "Palantir", "url": "https://yamportal.com/workspace/home", "icon": "palantir"}]},
   { "name": "News",
     "bookmark": "news",
     "content": [
