@@ -47,7 +47,8 @@
       { "name": "Jupyter Labs", "url": "http://localhost:8888/lab", "icon": "jupyter"},
       { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
       { "name": "Azure Notebooks", "url": "https://notebooks.azure.com", "icon": "microsoft"},
-      { "name": "Code Challenges", "url": "https://codechalleng.es/bites", "icon": "codechallenges"}]},
+      { "name": "Code Challenges", "url": "https://codechalleng.es/bites", "icon": "codechallenges"},
+	  { "name": "StrfTime", "url": "https://www.programiz.com/python-programming/datetime/strftime#format-code", "icon": "programiz"}]},
   { "name": "Retail",
     "bookmark": "retail",
     "content": [
