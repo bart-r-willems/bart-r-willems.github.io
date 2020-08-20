@@ -90,6 +90,13 @@
       { "name": "Nikon Cafe", "url": "http://www.nikoncafe.com", "icon": "nikon_cafe"},
       { "name": "The Grid", "url": "http://www.mcwade.com/TheGrid", "icon": "the_grid"},
       { "name": "Slack", "url": "https://www.slack.com", "icon": "slack"}]},
+  { "name": "Search",
+    "bookmark": "search",
+	"content": [
+	  { "name": "Google", "url": "https://www.google.com", "icon": "default"},
+	  { "name": "The Pirate Bay", "url": "https://thepiratebay.org", "icon": "default"},
+	  { "name": "Rarbg", "url": "https://rarbg.to", "icon": "default"},
+	  { "name": "Z-Library", "url": "https://z-lib.org", "icon": "default"}]},
   { "name": "Reference",
     "bookmark": "ref",
     "content": [
