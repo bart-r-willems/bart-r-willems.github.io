@@ -100,6 +100,7 @@
   { "name": "Reference",
     "bookmark": "ref",
     "content": [
+	  { "name": "Quote of the Day", "url": "https://www.brainyquote.com/quote_of_the_day", "icon": "brainyquote"},
       { "name": "Alt Numpad Keys", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Facebook Emoji Codes", "url": "http://www.symbols-n-emoticons.com/p/facebook-emoticons-list.html", "icon": "emoji"},
       { "name": "CIA World Factbook", "url": "https://www.cia.gov/library/publications/the-world-factbook/index.html", "icon": "cia"},
