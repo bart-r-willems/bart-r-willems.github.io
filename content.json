@@ -77,7 +77,8 @@
       { "name": "Pen Chalet", "url": "https://www.penchalet.com/", "icon": "penchalet"},
       { "name": "Goldspot", "url": "https://goldspot.com/", "icon": "goldspot"},
       { "name": "Cult Pens", "url": "https://www.cultpens.com", "icon": "cultpens"},
-      { "name": "Nanami Paper", "url": "http://www.nanamipaper.com/", "icon": "nanami"}]},
+      { "name": "Nanami Paper", "url": "http://www.nanamipaper.com/", "icon": "nanami"},
+	  { "name": "Innovative Journaling", "url": "https://innovativejournaling.com/", "icon": "innovative_journaling"}]},
   { "name": "Social Networking",
     "bookmark": "social",
     "content": [
