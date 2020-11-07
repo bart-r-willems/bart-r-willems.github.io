@@ -145,9 +145,11 @@
   { "name": "Finance",
     "bookmark": "finance",
     "content": [
-      { "name": "Paypal", "url": "http://www.paypal.com", "icon": "paypal"},
       { "name": "Bank of America", "url": "https://www.bankofamerica.com/", "icon": "boa"},
       { "name": "Valley National Bank", "url": "https://www.valley.com/sign-in/personal-small-business-banking", "icon": "valleynational"},
-      { "name": "Amazon Store Card", "url": "https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en", "icon": "amazon"},
-      { "name": "Capital One Savings Account", "url": "https://secure.capitalone360.com/myaccount/banking/login.vm", "icon": "cap_one"}]}
+      { "name": "Capital One Savings Account", "url": "https://secure.capitalone360.com/myaccount/banking/login.vm", "icon": "cap_one"},
+	  { "name": "Credit Karma", "url": "https://www.creditkarma.com/dashboard", "icon": "credit_karma"},
+      { "name": "Paypal", "url": "http://www.paypal.com", "icon": "paypal"},
+	  { "name": "American Express", "url": "https://global.americanexpress.com/dashboard", "icon": "amex"},
+      { "name": "Amazon Store Card", "url": "https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en", "icon": "amazon"}]}
 ]
