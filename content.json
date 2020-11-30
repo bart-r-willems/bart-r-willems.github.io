@@ -69,7 +69,8 @@
       { "name": "Curiosity Stream", "url": "https://curiositystream.com/access/optimum", "icon": "curiosity_stream"},
       { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"},
 	  { "name": "Netflix", "url": "https://netflix.com", "icon": "netflix"},
-      { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"}]},
+      { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"},
+	  { "name": "Domestika", "url": "https://www.domestika.org", "icon": "domestika"}]},
   { "name": "Stationary",
     "bookmark": "stationary",
     "content": [
