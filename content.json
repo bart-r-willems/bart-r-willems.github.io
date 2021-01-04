@@ -18,7 +18,7 @@
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
       { "name": "Blog", "url": "https://bart-r-willems.github.io/opensource_review", "icon": "github"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
-	  { "name": "NJ Transit Access Link", "url": "https://accesslink.njtransit.com/hiwire?.a=pHome#/main/trips", "icon": "default"}]},
+	  { "name": "NJ Transit Access Link", "url": "https://accesslink.njtransit.com/hiwire?.a=pHome#/main/trips", "icon": "nj_transit"}]},
   { "name": "News",
     "bookmark": "news",
     "content": [
@@ -99,7 +99,8 @@
   { "name": "Search",
     "bookmark": "search",
 	"content": [
-	  { "name": "Google", "url": "https://www.google.com", "icon": "default"},
+	  { "name": "Google", "url": "https://www.google.com", "icon": "google_search"},
+	  { "name": "Twitter", "url": "https://twitter.com/search-advanced", "icon": "twitter"},
 	  { "name": "The Pirate Bay", "url": "https://thepiratebay.org", "icon": "default"},
 	  { "name": "Rarbg", "url": "https://rarbg.to", "icon": "default"},
 	  { "name": "Z-Library", "url": "https://z-lib.org", "icon": "default"}]},
