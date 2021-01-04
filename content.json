@@ -101,7 +101,7 @@
 	"content": [
 	  { "name": "Google", "url": "https://www.google.com", "icon": "google_search"},
 	  { "name": "Twitter", "url": "https://twitter.com/search-advanced", "icon": "twitter"},
-	  { "name": "The Pirate Bay", "url": "https://thepiratebay.org", "icon": "default"},
+	  { "name": "The Pirate Bay", "url": "https://thepiratebay.org", "icon": "pirate_bay"},
 	  { "name": "Rarbg", "url": "https://rarbg.to", "icon": "default"},
 	  { "name": "Z-Library", "url": "https://z-lib.org", "icon": "default"}]},
   { "name": "Reference",
