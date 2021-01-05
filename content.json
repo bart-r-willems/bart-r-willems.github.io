@@ -18,7 +18,7 @@
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
       { "name": "Blog", "url": "https://bart-r-willems.github.io/opensource_review", "icon": "github"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
-	  { "name": "NJ Transit Access Link", "url": "https://accesslink.njtransit.com/hiwire?.a=pHome#/main/trips", "icon": "nj_transit"}]},
+	  { "name": "NJ Transit Access Link", "url": "https://accesslink.njtransit.com/hiwire?.a=pHome#/main/trips", "icon": "njtransit"}]},
   { "name": "News",
     "bookmark": "news",
     "content": [
