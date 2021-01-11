@@ -50,6 +50,7 @@
       { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
       { "name": "Azure Notebooks", "url": "https://notebooks.azure.com", "icon": "microsoft"},
       { "name": "Code Challenges", "url": "https://codechalleng.es/bites", "icon": "codechallenges"},
+	  { "name": "Dunder Data Challenges", "url": "https://python.dunderdata.com/user/bart-r-willems/tree?", "icon": "dunder_data"},
 	  { "name": "StrfTime", "url": "https://www.programiz.com/python-programming/datetime/strftime#format-code", "icon": "programiz"}]},
   { "name": "Retail",
     "bookmark": "retail",
