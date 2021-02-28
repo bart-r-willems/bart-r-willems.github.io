@@ -4,6 +4,7 @@
       { "name": "Bookmarks", "url": "bookmarks.html", "icon": "default"},
       { "name": "Clock", "url": "clock/index.html", "icon": "station_clock"},
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
+      { "name": "Keyboard shortcuts", "url": "https://www.key-shortcut.com/en", "icon": "key-shortcut"},
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
       { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
       { "name": "HP-35 Calculator", "url": "javascript:popUp35()", "icon": "calc"},
@@ -105,7 +106,7 @@
 	  { "name": "Twitter", "url": "https://twitter.com/search-advanced", "icon": "twitter"},
 	  { "name": "The Pirate Bay", "url": "https://thepiratebay.org", "icon": "pirate_bay"},
 	  { "name": "Rarbg", "url": "https://rarbg.to", "icon": "rarbg"},
-	  { "name": "Z-Library", "url": "https://z-lib.org", "icon": "default"}]},
+	  { "name": "Z-Library", "url": "https://z-lib.org", "icon": "z-lib"}]},
   { "name": "Reference",
     "bookmark": "ref",
     "content": [
