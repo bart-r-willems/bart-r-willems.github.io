@@ -43,7 +43,7 @@
       { "name": "Real Python Website", "url": "https://realpython.com/", "icon": "python"},
       { "name": "Python Software Foundation", "url": "https://www.python.org/", "icon": "python"},
       { "name": "WinPython", "url": "https://winpython.github.io/", "icon": "winpython"},
-      { "name": "Python Docs (3.7.2)", "url": "https://docs.python.org/3/", "icon": "python"},
+      { "name": "Python Docs", "url": "https://docs.python.org/3/", "icon": "python"},
       { "name": "Pandas Documentation", "url": "https://pandas.pydata.org/pandas-docs/stable/index.html", "icon": "python"},
       { "name": "Matplotlib", "url": "http://matplotlib.org/", "icon": "matplotlib"},
       { "name": "Jupyter Notebook", "url": "http://localhost:8888/tree", "icon": "jupyter"},
@@ -155,5 +155,6 @@
 	  { "name": "Credit Karma", "url": "https://www.creditkarma.com/dashboard", "icon": "credit_karma"},
       { "name": "Paypal", "url": "http://www.paypal.com", "icon": "paypal"},
 	  { "name": "American Express", "url": "https://global.americanexpress.com/dashboard", "icon": "amex"},
+	  { "name": "John Hancock", "url": "https://myplan.johnhancock.com/login", "icon": "johnhancock"},
       { "name": "Amazon Store Card", "url": "https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en", "icon": "amazon"}]}
 ]
