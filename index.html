@@ -10,8 +10,8 @@
     <meta name="author" content="">
 
     <title>Bart's Internet Start Page</title>
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="icons/favicon.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icons/favicon.png">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +32,12 @@
       }
       function popUp35() {
         window.open('hp35-ii.html','calc','toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=288,height=528');
+      }
+      function search_duckduckgo() {
+        location.href = 'https://duckduckgo.com/search?q=' + document.getElementById('search_box').value;
+      }
+      function search_google() {
+        location.href = 'https://google.com/search?q=' + document.getElementById('search_box').value;
       }
     // -->
     </script>
@@ -77,15 +83,27 @@
 <p>
                  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
 </p>
-
-                  <form method="get" action="https://www.duckduckgo.com/html">
-                      <input type="text"   name="q" maxlength="255" value="" style="width:800px;text-align:left;" />
-                      <input type="submit" value="Duck Duck Go" style="width:120px;text-align:right;" />
-                  </form>
-                  <form method="get" action="https://www.google.com/search">
-                      <input type="text"   name="q" maxlength="255" value="" style="width:800px;text-align:left;" />
-                      <input type="submit" value="Google" style="width:120px;text-align:right;" />
-                  </form>
+                 <!-- Search bar. Engines can be added as buttons -->
+                 <input 
+                    type="text" 
+                    id="search_box"  
+                    name="q" 
+                    maxlength="255" 
+                    value="" 
+                    style="width:680px;text-align:left;" />
+                  <input 
+                    type="button" 
+                    value="Duck Duck Go" 
+                    style="width:120px;text-align:center;" 
+                    id="btn_duckduckgo" 
+                    onClick="javascript:search_duckduckgo()" />
+                  <input 
+                    type="button" 
+                    value="Google" 
+                    style="width:120px;text-align:center;" 
+                    id="btn_googlr" 
+                    onClick="javascript:search_google()" />
+                  <!-- end of search bar -->
                   <table border='0' padding='0' width="100%">
                     <tr><td colspan="16" align="center">Test Pattern</td></tr>
                     <tr>
