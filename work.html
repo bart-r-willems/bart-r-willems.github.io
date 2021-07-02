@@ -39,6 +39,11 @@
       function search_google() {
         location.href = 'https://google.com/search?q=' + document.getElementById('search_box').value;
       }
+	  function search_enter(event) {
+	     if (event.keyCode == 13) {
+			search_duckduckgo();
+		 }
+      }
     // -->
     </script>
 </head>
@@ -80,7 +85,8 @@
                     name="q" 
                     maxlength="255" 
                     value="" 
-                    style="width:680px;text-align:left;" />
+                    style="width:680px;text-align:left;"
+                    onkeypress="javascript:search_enter(event)" />
                   <input 
                     type="button" 
                     value="Duck Duck Go" 

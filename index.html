@@ -41,7 +41,7 @@
       }
 	  function search_enter(event) {
 	     if (event.keyCode == 13) {
-			search_duckduck_go();
+			search_duckduckgo();
 		 }
       }
     // -->
@@ -96,8 +96,8 @@
                     maxlength="255" 
                     value="" 
                     style="width:680px;text-align:left;"
-                    onkeypress="javascript:search_enter()" />
-         		<input 
+                    onkeypress="javascript:search_enter(event)" />
+                  <input 
                     type="button" 
                     value="Duck Duck Go" 
                     style="width:120px;text-align:center;" 
