@@ -55,7 +55,7 @@
 	  { "name": "Dunder Data Challenges", "url": "https://python.dunderdata.com/user/bart-r-willems/tree?", "icon": "dunder_data"},
 	  { "name": "Manning Publishers", "url": "https://www.manning.com/dashboard", "icon": "manning"},
 	  { "name": "StrfTime", "url": "https://strftime.org/", "icon": "programiz"},
-	  { "name": "Pyregex", "url":"http://www.pyregex.com/", "icon": "pyregex"}]},
+	  { "name": "Regex 101", "url":"https://regex101.com/?flavor=python", "icon": "regex101"}]},
   { "name": "Retail",
     "bookmark": "retail",
     "content": [
