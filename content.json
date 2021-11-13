@@ -146,7 +146,7 @@
     "bookmark": "network",
     "content": [
       { "name": "Brother 2070N Laser Printer", "url": "http://192.168.1.51/", "icon": "brother"},
-      { "name": "Synology DS414 NAS", "url": "http://192.168.1.150/", "icon": "synology"},
+      { "name": "Synology DS414 NAS", "url": "https://quickconnect.to/B-R-WILLEMS", "icon": "synology"},
       { "name": "Linksys Router", "url": "http://192.168.1.1/", "icon": "linksys"},
       { "name": "Reset Linksys Router", "url": "http://192.168.1.1/Reset.htm", "icon": "linksys"}]},
   { "name": "Finance",
