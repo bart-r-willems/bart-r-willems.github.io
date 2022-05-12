@@ -160,5 +160,6 @@
       { "name": "American Express", "url": "https://global.americanexpress.com/dashboard", "icon": "amex"},
       { "name": "John Hancock", "url": "https://myplan.johnhancock.com/login", "icon": "johnhancock"},
       { "name": "Amazon Store Card", "url": "https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en", "icon": "amazon"},
-      { "name": "Loan Depot", "url": "https://loandepotwebpay.secureconduit.net", "icon": "loandepot"}]}
+      { "name": "Loan Depot Autopay", "url": "https://loandepotwebpay.secureconduit.net", "icon": "loandepot"},
+      { "name": "Loan Depot Dashboard", "url": "https://my.loandepot.com/dashboard", "icon": "loandepot"}]}
 ]
