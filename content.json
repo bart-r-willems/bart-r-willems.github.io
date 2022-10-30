@@ -73,6 +73,7 @@
       { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "kindle"},
       { "name": "Audible", "url": "https://www.audible.com", "icon": "audible"},
       { "name": "Curiosity Stream", "url": "https://curiositystream.com/access/optimum", "icon": "curiosity_stream"},
+      { "name": "F1 TV", "url": "https://f1tv.formula1.com/", "icon": "f1tv"},
       { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"},
       { "name": "Netflix", "url": "https://netflix.com", "icon": "netflix"},
       { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"},
@@ -147,9 +148,7 @@
     "bookmark": "network",
     "content": [
       { "name": "Brother 2070N Laser Printer", "url": "http://192.168.1.51/", "icon": "brother"},
-      { "name": "Synology DS414 NAS", "url": "https://quickconnect.to/B-R-WILLEMS", "icon": "synology"},
-      { "name": "Linksys Router", "url": "http://192.168.1.1/", "icon": "linksys"},
-      { "name": "Reset Linksys Router", "url": "http://192.168.1.1/Reset.htm", "icon": "linksys"}]},
+      { "name": "Synology DS414 NAS", "url": "https://quickconnect.to/B-R-WILLEMS", "icon": "synology"}]},
   { "name": "Finance",
     "bookmark": "finance",
     "content": [

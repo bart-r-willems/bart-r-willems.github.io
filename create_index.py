@@ -6,9 +6,11 @@ COLCOUNT = 4
 
 
 def main():
+    print('INDEX.HTML')
     create('content.json', 'index.html', 'Bart\'s Internet Start Page')
+    print('NOOKMARKS.HTML')
     create('bookmarks.json', 'bookmarks.html', 'Bookmarks')
-    create('work.json', 'work.html', 'Maersk startpage for the home')
+    # create('work.json', 'work.html', 'Maersk startpage for the home')
 
 def create(input_name, output_name, title):
     try:
