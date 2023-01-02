@@ -30,5 +30,10 @@
       { "name": "Practical Business Python", "url": "https://pbpython.com/", "icon": "python"},
       { "name": "Python Bytes Podcast", "url": "https://pythonbytes.fm/", "icon": "python"},
       { "name": "Talk Python to Me Podcast", "url": "https://talkpython.fm/", "icon": "python"},
-      { "name": "The Python Podcast.__init__", "url": "https://www.pythonpodcast.com/", "icon": "python"}]}
+      { "name": "The Python Podcast.__init__", "url": "https://www.pythonpodcast.com/", "icon": "python"}]},
+  { "name": "Books",
+    "bookmark": "books",
+    "content": [
+      { "name": "Effective Pandas", "url": "file:///D:/Documents/eBooks/Matt%20Harrison/Effective%20Pandas_%20Patterns%20for%20Data%20(730)/Effective%20Pandas_%20Patterns%20for%20-%20Matt%20Harrison.pdf", "icon": "pdf"}
+    ]}
 ]
