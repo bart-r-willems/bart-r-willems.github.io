@@ -19,8 +19,9 @@
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
       { "name": "Blog", "url": "https://bart-r-willems.github.io/opensource_review", "icon": "github"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
-    {"name": "LinkedIn Learning", "url": "https://www.linkedin.com/learning/me/in-progress?trk=nav_neptune_learning", "icon": "linkedin_learning"},
-    { "name": "NJ Transit Access Link", "url": "https://accesslink.njtransit.com/hiwire?.a=pHome#/main/trips", "icon": "njtransit"}]},
+      { "name": "Calibre", "url": "http://127.0.0.1:8080/#library_id=eBooks&panel=book_list", "icon": "calibre"},
+      { "name": "LinkedIn Learning", "url": "https://www.linkedin.com/learning/me/in-progress?trk=nav_neptune_learning", "icon": "linkedin_learning"},
+      { "name": "NJ Transit Access Link", "url": "https://accesslink.njtransit.com/hiwire?.a=pHome#/main/trips", "icon": "njtransit"}]},
   { "name": "News",
     "bookmark": "news",
     "content": [
