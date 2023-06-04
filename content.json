@@ -106,7 +106,7 @@
     { "name": "Google", "url": "https://www.google.com", "icon": "google_search"},
     { "name": "Twitter", "url": "https://twitter.com/search-advanced", "icon": "twitter"},
     { "name": "The Pirate Bay", "url": "https://thepiratebay.org", "icon": "pirate_bay"},
-    { "name": "Rarbg", "url": "https://rarbg.to", "icon": "rarbg"},
+    { "name": "1337X", "url": "https://www.1337x.to", "icon": "rarbg"},
     { "name": "Z-Library", "url": "https://z-lib.is/", "icon": "z-lib"},
     { "name": "Library Genesis", "url": "https://libgen.is/", "icon": "libgen"},
     { "name": "Audiobook Bay", "url": "http://audiobookbay.fi/", "icon": "audiobook"}]},
