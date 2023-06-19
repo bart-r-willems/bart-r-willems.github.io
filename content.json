@@ -151,7 +151,7 @@
       { "name": "Chess USA", "url": "https://www.chessusa.com", "icon": "chessusa"},
       { "name": "US Chess Federation","url": "https://new.uschess.org/", "icon": "uscf"},
       { "name": "NJ State Chess Federation", "url" : "https://njscf.org/", "icon": "njscf"},
-      { "name": "Bergen County Chess Mates", "url": "https://bergenchessmates.org/", "icon": "bcm"},
+      { "name": "Bergen Chess Mates", "url": "https://bergenchessmates.org/", "icon": "bcm"},
       { "name": "De Stukkenjagers", "url": "https://stukkenjagers.nl/home/", "icon": "stukkenjagers"}]},
 
   { "name": "Weather and Traffic",
