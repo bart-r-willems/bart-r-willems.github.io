@@ -129,7 +129,7 @@
     "bookmark": "games",
     "content": [
       { "name": "Wordle", "url": "https://www.nytimes.com/games/wordle/index.html", "icon": "wordle"},
-      { "name": "KSP Forum", "url": "http://forum.kerbalspaceprogram.com/index.php", "icon": "ksp"},
+      { "name": "Connections", "url": "https://www.nytimes.com/games/connections", "icon": "connections"},
       { "name": "KSP Forum (unread)", "url": "http://forum.kerbalspaceprogram.com/index.php?/discover/unread/", "icon": "ksp_red"},
       { "name": "Resonant Orbit Calculator", "url": "resonant_orbit/calculator.html", "icon": "ksp"},
       { "name": "KSP Wiki", "url": "http://wiki.kerbalspaceprogram.com/wiki/Main_Page", "icon": "ksp"},
