@@ -75,6 +75,7 @@
       { "name": "Netflix", "url": "https://netflix.com", "icon": "netflix"},
       { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"},
       { "name": "Calibre", "url": "http://localhost:8080/#library_id=eBooks&panel=book_list", "icon": "calibre"},      
+      { "name": "Spotify", "url": "https://open.spotify.com/?", "icon": "spotify"},      
       { "name": "Domestika", "url": "https://www.domestika.org", "icon": "domestika"}]},
   { "name": "Stationary",
     "bookmark": "stationary",
