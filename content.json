@@ -177,6 +177,13 @@
       { "name": "American Express", "url": "https://global.americanexpress.com/dashboard", "icon": "amex"},
       { "name": "John Hancock", "url": "https://myplan.johnhancock.com/login", "icon": "johnhancock"},
       { "name": "Amazon Store Card", "url": "https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en", "icon": "amazon"},
-      { "name": "Loan Depot Autopay", "url": "https://loandepotwebpay.secureconduit.net", "icon": "loandepot"},
-      { "name": "Loan Depot Dashboard", "url": "https://servicing.loandepot.com", "icon": "loandepot"}]}
+      { "name": "Loan Depot Dashboard", "url": "https://servicing.loandepot.com", "icon": "loandepot"}]},
+  { "name": "Health",
+    "bookmark": "health",
+    "content": [
+      { "name": "Horizon Blue Cross", "url": "https://www.horizonblue.com/", "icon": "default"},
+      { "name": "CVS Pharmacy Dashboard", "url": "https://www.cvs.com/pharmacy/v3/dashboard", "icon": "default"},
+      { "name": "MyChart", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login?", "icon": "default"},
+      { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "default"},
+      { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "default"}]}
 ]
