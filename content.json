@@ -186,6 +186,6 @@
       { "name": "CVS Pharmacy Dashboard", "url": "https://www.cvs.com/pharmacy/v3/dashboard", "icon": "cvs"},
       { "name": "Livongo Health Dashboard", "url": "https://my.livongo.com/dashboard", "icon": "livongo"},
       { "name": "MyChart", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login?", "icon": "mychart"},
-      { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "default"},
-      { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "default"}]}
+      { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "libreview"},
+      { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "ganj"}]}
 ]
