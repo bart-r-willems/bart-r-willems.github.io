@@ -1,0 +1,6 @@
+import pandas as pd
+import pyarrow
+impor matplotlib.pyplot as plt
+
+pd.options.mode.dtype_backend = 'pyarrow'
+pd.options.display.float_format = '{:,.2f}'.format

@@ -51,7 +51,7 @@
       { "name": "StrfTime", "url": "https://strftime.org/", "icon": "programiz"},
       { "name": "Regex 101", "url":"https://regex101.com/?flavor=python", "icon": "regex101"},
       { "name": "Code Challenges", "url": "https://codechalleng.es/bites", "icon": "codechallenges"},
-      { "name": "Dunder Data Challenges", "url": "https://python.dunderdata.com/user/bart-r-willems/tree?", "icon": "dunder_data"}]},
+      { "name": "Pandas Boilerplate", "url": "boilerplate.txt", "icon": "python"}]},
   { "name": "Retail",
     "bookmark": "retail",
     "content": [
