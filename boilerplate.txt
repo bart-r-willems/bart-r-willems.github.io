@@ -2,5 +2,8 @@ import pandas as pd
 import pyarrow
 import matplotlib.pyplot as plt
 
-pd.options.mode.dtype_backend = 'pyarrow'
 pd.options.display.float_format = '{:,.2f}'.format
+
+# open a webpage inside jupyter/ipython console
+from IPython.display import IFrame
+IFrame(src="https://jasongrout.org", width='100%', height='500px')
