@@ -41,7 +41,7 @@
     "bookmark": "python",
     "content": [
       { "name": "Python Software Foundation", "url": "https://www.python.org/", "icon": "python"},
-      { "name": "Jupyter Notebook", "url": "http://localhost:8888/tree", "icon": "jupyter"},
+      { "name": "Pyodide REPL", "url": "https://pyodide.org/en/stable/console.html", "icon": "python"},
       { "name": "Jupyter Labs", "url": "http://localhost:8888/lab", "icon": "jupyter-lab"},
       { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
       { "name": "Python Docs", "url": "https://docs.python.org/3/", "icon": "python"},
@@ -57,7 +57,7 @@
     "content": [
       { "name": "Bamboo Weekly", "url": "https://www.bambooweekly.com/", "icon": "bamboo"},
       { "name": "Reuven Lerner", "url": "https://store.lerner.co.il/products/home", "icon": "lerner"},
-      { "name": "Talk Pythons", "url": "https://training.talkpython.fm/account", "icon": "talk_python"}]},
+      { "name": "Talk Python", "url": "https://training.talkpython.fm/account", "icon": "talk_python"}]},
   { "name": "Retail",
     "bookmark": "retail",
     "content": [
