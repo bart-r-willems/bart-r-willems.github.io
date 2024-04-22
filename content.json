@@ -140,8 +140,8 @@
     "content": [
       { "name": "Wordle", "url": "https://www.nytimes.com/games/wordle/index.html", "icon": "wordle"},
       { "name": "Connections", "url": "https://www.nytimes.com/games/connections", "icon": "connections"},
-      { "name": "Sudoku", "url": "https://www.nytimes.com/puzzles/sudoku", "icon": "sudoku"},
       { "name": "Strands", "url": "https://www.nytimes.com/games/strands", "icon": "strands"},
+      { "name": "Sudoku", "url": "https://www.nytimes.com/puzzles/sudoku", "icon": "sudoku"},
       { "name": "Chess Puzzle", "url": "https://www.shredderchess.com/online/daily-chess-puzzle.html", "icon": "shredder"},
       { "name": "Resonant Orbit Calculator", "url": "resonant_orbit/calculator.html", "icon": "ksp"},
       { "name": "KSP Wiki", "url": "http://wiki.kerbalspaceprogram.com/wiki/Main_Page", "icon": "ksp"},
