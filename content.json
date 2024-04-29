@@ -47,7 +47,6 @@
       { "name": "Python Docs", "url": "https://docs.python.org/3/", "icon": "python"},
       { "name": "Pandas Documentation", "url": "https://pandas.pydata.org/pandas-docs/stable/index.html", "icon": "python"},
       { "name": "Matplotlib", "url": "http://matplotlib.org/", "icon": "matplotlib"},
-      { "name": "Manning Publishers", "url": "https://www.manning.com/dashboard", "icon": "manning"},
       { "name": "StrfTime", "url": "https://strftime.org/", "icon": "programiz"},
       { "name": "Regex 101", "url":"https://regex101.com/?flavor=python", "icon": "regex101"},
       { "name": "Code Challenges", "url": "https://codechalleng.es/bites", "icon": "codechallenges"},
@@ -57,6 +56,7 @@
     "content": [
       { "name": "Bamboo Weekly", "url": "https://www.bambooweekly.com/", "icon": "bamboo"},
       { "name": "Reuven Lerner", "url": "https://store.lerner.co.il/products/home", "icon": "lerner"},
+      { "name": "Manning Publishers", "url": "https://www.manning.com/dashboard", "icon": "manning"},
       { "name": "Talk Python", "url": "https://training.talkpython.fm/account", "icon": "talk_python"}]},
   { "name": "Retail",
     "bookmark": "retail",
