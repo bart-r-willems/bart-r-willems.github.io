@@ -40,7 +40,9 @@
       { "name": "Matplotlib", "url": "http://matplotlib.org/", "icon": "matplotlib"},
       { "name": "StrfTime", "url": "https://strftime.org/", "icon": "programiz"},
       { "name": "Regex 101", "url":"https://regex101.com/?flavor=python", "icon": "regex101"},
-      { "name": "Pandas Boilerplate", "url": "boilerplate.txt", "icon": "python"}]},
+      { "name": "Pandas Boilerplate", "url": "boilerplate.txt", "icon": "python"},
+      { "name": "Duckdb Shell", "url": "https://shell.duckdb.org/", "icon": "duckdb"},
+      { "name": "Duckdb Docs", "url": "https://duckdb.org/docs/", "icon": "duckdb"}]},
   { "name": "Python Training",
     "bookmark": "pythobtraining",
     "content": [
