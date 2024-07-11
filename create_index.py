@@ -15,8 +15,9 @@ def main():
 
 def get_ip():
     '''Return ip address of this computer'''
-    hostname = socket.gethostname()
-    return socket.gethostbyname(hostname)
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    return s.getsockname()[0]
 
 def create(input_name, output_name, title):
     try:
