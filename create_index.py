@@ -1,6 +1,7 @@
 #!/usr/bin/python3.10
 
 import json
+import socket
 
 COLCOUNT = 4
 
@@ -11,6 +12,11 @@ def main():
     print('NOOKMARKS.HTML')
     create('bookmarks.json', 'bookmarks.html', 'Bookmarks')
     # create('work.json', 'work.html', 'Maersk startpage for the home')
+
+def get_ip():
+    '''Return ip address of this computer'''
+    hostname = socket.gethostname()
+    return socket.gethostbyname(hostname)
 
 def create(input_name, output_name, title):
     try:
@@ -71,9 +77,11 @@ def generate_links_header(name, bookmark):
 
 
 def generate_links_column(content):
+    local_ip = get_ip()
     result = ['          <td width="400" valign="top"><ul class="list-group">']
     for link in content:
         title, url, icon = extract_from_dict(link, 'name', 'url', 'icon')
+        url = url.replace('localhost', local_ip)
         result.append('            <a class="list-group-item" href="{url}"><img src="icons/{icon}.png" class="img-rounded">&nbsp;{title}</a>'.format(url=url, icon=icon, title=title))
     result.append('          </ul></td>')
     return '\n'.join(result)

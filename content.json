@@ -7,7 +7,6 @@
       { "name": "Keyboard shortcuts", "url": "https://www.key-shortcut.com/en", "icon": "key-shortcut"},
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
       { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
-      { "name": "HP-35 Calculator", "url": "javascript:popUp35()", "icon": "calc"},
       { "name": "HP-15C Calculator", "url": "javascript:popUp15C()", "icon": "hp15"},
       { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
       { "name": "Github", "url": "https://github.com", "icon": "github"},
@@ -15,6 +14,7 @@
       { "name": "OneDrive", "url": "https://onedrive.live.com", "icon": "onedrive"},
       { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
+      { "name": "Online Tools", "url": "https://emn178.github.io/online-tools/", "icon": "default"},
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
       { "name": "LinkedIn Learning", "url": "https://www.linkedin.com/learning/me/in-progress?trk=nav_neptune_learning", "icon": "linkedin_learning"}]},
   { "name": "News",
@@ -70,7 +70,6 @@
       { "name": "Overcast", "url": "https://overcast.fm/podcasts", "icon": "overcast"},
       { "name": "Kindle Reader", "url": "https://read.amazon.com", "icon": "kindle"},
       { "name": "Audible", "url": "https://www.audible.com", "icon": "audible"},
-      { "name": "Curiosity Stream", "url": "https://curiositystream.com/access/optimum", "icon": "curiosity_stream"},
       { "name": "F1 TV", "url": "https://f1tv.formula1.com/", "icon": "f1tv"},
       { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"},
       { "name": "Netflix", "url": "https://netflix.com", "icon": "netflix"},
@@ -190,7 +189,6 @@
     "content": [
       { "name": "Horizon Blue Cross", "url": "https://www.horizonblue.com/", "icon": "blueshield_bluecross"},
       { "name": "CVS Pharmacy Dashboard", "url": "https://www.cvs.com/pharmacy/v3/dashboard", "icon": "cvs"},
-      { "name": "Livongo Health Dashboard", "url": "https://my.livongo.com/dashboard", "icon": "livongo"},
       { "name": "MyChart", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login?", "icon": "mychart"},
       { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "libreview"},
       { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "ganj"}]}
