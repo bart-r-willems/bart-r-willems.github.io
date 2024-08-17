@@ -3,20 +3,23 @@
     "content": [
       { "name": "Bookmarks", "url": "bookmarks.html", "icon": "default"},
       { "name": "Clock", "url": "clock/index.html", "icon": "station_clock"},
-      { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
-      { "name": "Keyboard shortcuts", "url": "https://www.key-shortcut.com/en", "icon": "key-shortcut"},
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
-      { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
-      { "name": "HP-15C Calculator", "url": "javascript:popUp15C()", "icon": "hp15"},
-      { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
       { "name": "Github", "url": "https://github.com", "icon": "github"},
       { "name": "Wordpress", "url": "https://wordpress.com", "icon": "wordpress"},
       { "name": "OneDrive", "url": "https://onedrive.live.com", "icon": "onedrive"},
-      { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
-      { "name": "Online Tools", "url": "https://emn178.github.io/online-tools/", "icon": "default"},
-      { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
       { "name": "LinkedIn Learning", "url": "https://www.linkedin.com/learning/me/in-progress?trk=nav_neptune_learning", "icon": "linkedin_learning"}]},
+  { "name": "Tools",
+    "bookmark": "tools",
+    "content": [
+      { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "default"},
+      { "name": "Markdown Converter", "url": "https://www.rich-text-to-markdown.com/", "icon": "markdown"},      
+      { "name": "File hashes", "url": "https://emn178.github.io/online-tools/", "icon": "tools"},
+      { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
+      { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
+      { "name": "HP-15C Calculator", "url": "javascript:popUp15C()", "icon": "hp15"},
+      { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
+      { "name": "Keyboard shortcuts", "url": "https://www.key-shortcut.com/en", "icon": "key-shortcut"}]},
   { "name": "News",
     "bookmark": "news",
     "content": [
@@ -196,5 +199,6 @@
       { "name": "CVS Pharmacy Dashboard", "url": "https://www.cvs.com/pharmacy/v3/dashboard", "icon": "cvs"},
       { "name": "MyChart", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login?", "icon": "mychart"},
       { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "libreview"},
+      { "name": "GLP-1 Plotter", "url": "https://glp1plotter.com/", "icon": "glp1"},
       { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "ganj"}]}
 ]
