@@ -129,7 +129,7 @@
       { "name": "Nikon Pictorial History", "url": "http://www.mir.com.my/rb/photography/companies/nikon/htmls/models/index.htm", "icon": "nikon"},
       { "name": "Urban Dictionary", "url": "http://www.urbandictionary.com/", "icon": "urbdict"},
       { "name": "White Pages Reverse Lookup", "url": "http://www.whitepages.com/reverse_phone", "icon": "whitepages"},
-      { "name": "Where is Roadster?", "url": "http://www.whereisroadster.com", "icon": "default"}]},
+      { "name": "DM32 User Manual", "url": "dm32_manual.html", "icon": "default"}]},
   { "name": "Games",
     "bookmark": "games",
     "content": [
