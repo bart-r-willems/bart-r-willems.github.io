@@ -4,7 +4,6 @@
       { "name": "Gmail", "url": "https://www.gmail.com", "icon": "gmail"},
       { "name": "Bookmarks", "url": "bookmarks.html", "icon": "default"},
       { "name": "Clock", "url": "clock/index.html", "icon": "station_clock"},
-      { "name": "Github", "url": "https://github.com", "icon": "github"},
       { "name": "Wordpress", "url": "https://wordpress.com", "icon": "wordpress"},
       { "name": "OneDrive", "url": "https://onedrive.live.com", "icon": "onedrive"},
       { "name": "Time and Date", "url": "https://timeanddate.com", "icon": "timeanddate"},
@@ -55,9 +54,11 @@
   { "name": "General Coding",
     "bookmark": "general_coding",
     "content": [
+      { "name": "Github", "url": "https://github.com", "icon": "github"},
       { "name": "Github Codespaces", "url": "https://github.com/codespaces", "icon": "github"},
       { "name": "Duckdb Shell", "url": "https://shell.duckdb.org/", "icon": "duckdb"},
-      { "name": "Duckdb Docs", "url": "https://duckdb.org/docs/", "icon": "duckdb"}]},
+      { "name": "Duckdb Docs", "url": "https://duckdb.org/docs/", "icon": "duckdb"},
+      { "name": "Hackerrank", "url": "https://www.hackerrank.com/dashboard", "icon": "hackerrank"}]},
   { "name": "Retail",
     "bookmark": "retail",
     "content": [
@@ -195,6 +196,7 @@
       { "name": "John Hancock", "url": "https://myplan.johnhancock.com/login", "icon": "johnhancock"},
       { "name": "Amazon Store Card", "url": "https://www.synchronycredit.com/eSecurity/Login/login.action?clientId=amazon&accountType=plcc&langId=en", "icon": "amazon"},
       { "name": "Loan Depot Dashboard", "url": "https://servicing.loandepot.com", "icon": "loandepot"},
+      { "name": "TD Autofinance Dashboard", "url": "https://www.tdautofinance.com/app/#/dashboard", "icon": "TDBank"},
       { "name": "People First Timesheets", "url": "https://fms.pplfirst.com/PPLPortal/login.aspx", "icon": "peoplefirst"},
       { "name": "Ultipro", "url": "https://e23.ultipro.com/Login.aspx?ReturnUrl=%2f", "icon": "ultipro"}]},
   { "name": "Health",
