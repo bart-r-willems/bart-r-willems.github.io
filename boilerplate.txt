@@ -1,9 +1,28 @@
+# ============================================================================
+# BOILERPLATE FOR NOTEBOOKS
+# ============================================================================
 import pandas as pd
-import pyarrow
 import matplotlib.pyplot as plt
+from pathlib import Path
+from great_tables import GT, style, loc
 
+pd.set_option("display.precision", 0)
 pd.options.display.float_format = '{:,.2f}'.format
 
-# open a webpage inside jupyter/ipython console
-from IPython.display import IFrame
-IFrame(src="https://jasongrout.org", width='100%', height='500px')
+plt.style.use('dark_background')
+plt.ecParams['font.family'] = 'serif'   # or sans-serif
+plt.rcParams['font.serif'] = ['Century Schoolbook', 'Georgia',
+                              'Times New Roman', 'Times']
+
+class MyGT(GT):
+    def pipe(self, fn):
+        """A simple pipe function to implement method chaining"""
+        return fn(self)
+    
+    def tab_defaults(self):
+        return self.tab_options(
+                    table_background_color='#202020',
+                    table_font_names=['Century Schoolbook', 'Georgia']
+                )
+
+# ============================================================================
