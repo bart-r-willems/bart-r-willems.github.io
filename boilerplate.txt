@@ -2,27 +2,52 @@
 # BOILERPLATE FOR NOTEBOOKS
 # ============================================================================
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
-from great_tables import GT, style, loc
+from great_tables import GT
 
+# two options for number formatting
 pd.set_option("display.precision", 0)
 pd.options.display.float_format = '{:,.2f}'.format
 
 plt.style.use('dark_background')
-plt.ecParams['font.family'] = 'serif'   # or sans-serif
+plt.rcParams['font.family'] = 'serif'   # or sans-serif
 plt.rcParams['font.serif'] = ['Century Schoolbook', 'Georgia',
                               'Times New Roman', 'Times']
 
 class MyGT(GT):
-    def pipe(self, fn):
+    def pipe(self, fn) -> GT:
         """A simple pipe function to implement method chaining"""
         return fn(self)
     
-    def tab_defaults(self):
-        return self.tab_options(
+    def tab_defaults(self) -> GT:
+        return self.set_defaults(
                     table_background_color='#202020',
                     table_font_names=['Century Schoolbook', 'Georgia']
                 )
 
 # ============================================================================
+
+
+def set_pandas_options()
+    """Various options settings for pandas"""
+    pd.set_option("display.colheader_justify", "left")
+    pd.set_option("display.float_format", None)
+    pd.set_option("display.precision", 1)
+
+def connect_db_alchemy(sql):
+    """Connect to the Postgres SQL database using SQL Alchemy"""
+    from sqlalchemy import create_engine
+    db = create_engine('postgresql://postgres:pwd@localhost:5432/adhoc')
+    return pd.read_sql(sql, db)
+
+def connect_db_odbc(sql):
+    """Connect to the Postgres SQL database using ODBC"""
+    import psycopg2
+    conn = psycopg2.connect(user="postgres",
+                            password="pwd",
+                            host="localhost",
+                            port="5432",
+                            database="adhoc")
+    return pd.read_sql(sql, conn)
