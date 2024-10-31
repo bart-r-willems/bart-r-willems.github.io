@@ -66,6 +66,7 @@
     "bookmark": "retail",
     "content": [
       { "name": "Amazon", "url": "https://www.amazon.com", "icon": "amazon"},
+      { "name": "eBooks.com", "url": "https://www.ebooks.com/en-us/", "icon": "ebooks"},
       { "name": "Walmart", "url": "https://www.walmart.com", "icon": "walmart"},
       { "name": "van der Veen", "url": "https://thedutchstore.com", "icon": "vanderveen"},
       { "name": "Chewy", "url": "https://www.chewy.com", "icon": "chewy"},
