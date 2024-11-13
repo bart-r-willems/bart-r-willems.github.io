@@ -107,7 +107,7 @@
     "content": [
       { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
       { "name": "Linked In", "url": "https://www.linkedin.com", "icon": "linkedin"},
-      { "name": "Twitter", "url": "https://www.twitter.com", "icon": "twitter"},
+      { "name": "Bluesky", "url": "https://bsky.app", "icon": "Bluesky"},
       { "name": "Reddit", "url": "https://www.reddit.com", "icon": "reddit"},
       { "name": "Mastodon", "url": "https://mstdn.social", "icon": "mastodon"},
       { "name": "Tumblr", "url": "http://www.tumblr.com", "icon": "tumblr"},
@@ -175,7 +175,9 @@
       { "name": "US Chess Federation","url": "https://new.uschess.org/", "icon": "uscf"},
       { "name": "NJ State Chess Federation", "url" : "https://njscf.org/", "icon": "njscf"},
       { "name": "Bergen Chess Mates", "url": "https://bergenchessmates.org/", "icon": "bcm"},
-      { "name": "De Stukkenjagers", "url": "https://stukkenjagers.nl/home/", "icon": "stukkenjagers"}]},
+      { "name": "De Stukkenjagers", "url": "https://stukkenjagers.nl/home/", "icon": "stukkenjagers"},
+      { "name": "Shane Chateauneuf Collection", "url": "https://mychesscollection.com/", "icon": "official_staunton"},
+      { "name": "Holger Lange Collection", "url": "https://www.chess-collection.de/", "icon": "official_staunton"}]},
 
   { "name": "Weather and Traffic",
     "bookmark": "traffic",
