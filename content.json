@@ -107,7 +107,7 @@
     "content": [
       { "name": "Facebook", "url": "https://www.facebook.com", "icon": "facebook"},
       { "name": "Linked In", "url": "https://www.linkedin.com", "icon": "linkedin"},
-      { "name": "Bluesky", "url": "https://bsky.app", "icon": "Bluesky"},
+      { "name": "Bluesky", "url": "https://bsky.app", "icon": "bluesky"},
       { "name": "Reddit", "url": "https://www.reddit.com", "icon": "reddit"},
       { "name": "Mastodon", "url": "https://mstdn.social", "icon": "mastodon"},
       { "name": "Tumblr", "url": "http://www.tumblr.com", "icon": "tumblr"},
