@@ -190,7 +190,7 @@
     "bookmark": "network",
     "content": [
       { "name": "Brother 2070N Laser Printer", "url": "http://192.168.1.51/", "icon": "brother"},
-      { "name": "Synology DS414 NAS", "url": "https://quickconnect.to/B-R-WILLEMS", "icon": "synology"}]},
+      { "name": "Synology DS414 NAS", "url": "https://192.168.4.60:5001/", "icon": "synology"}]},
   { "name": "Finance",
     "bookmark": "finance",
     "content": [
