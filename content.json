@@ -86,7 +86,7 @@
       { "name": "Prime Video", "url": "https://www.amazon.com/Amazon-Video/b/?&node=2858778011", "icon": "prime_video"},
       { "name": "Netflix", "url": "https://netflix.com", "icon": "netflix"},
       { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"},
-      { "name": "Calibre", "url": "http://localhost:8080/#library_id=eBooks&panel=book_list", "icon": "calibre"},      
+      { "name": "Calibre", "url": "http://192.168.4.81:8080/#library_id=eBooks&panel=book_list", "icon": "calibre"},      
       { "name": "Spotify", "url": "https://open.spotify.com/?", "icon": "spotify"},      
       { "name": "Domestika", "url": "https://www.domestika.org", "icon": "domestika"}]},
   { "name": "Stationary",
