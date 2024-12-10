@@ -36,9 +36,7 @@
     "bookmark": "python",
     "content": [
       { "name": "Python Software Foundation", "url": "https://www.python.org/", "icon": "python"},
-      { "name": "Pyodide REPL", "url": "https://pyodide.org/en/stable/console.html", "icon": "python"},
       { "name": "Jupyter Labs", "url": "http://localhost:8888/lab", "icon": "jupyter-lab"},
-      { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
       { "name": "Python Docs", "url": "https://docs.python.org/3/", "icon": "python"},
       { "name": "Pandas Documentation", "url": "https://pandas.pydata.org/pandas-docs/stable/index.html", "icon": "python"},
       { "name": "Matplotlib", "url": "http://matplotlib.org/", "icon": "matplotlib"},
@@ -46,6 +44,13 @@
       { "name": "Regex 101", "url":"https://regex101.com/?flavor=python", "icon": "regex101"},
       { "name": "Great Tables Reference", "url": "https://posit-dev.github.io/great-tables/reference/", "icon": "greattables"},
       { "name": "Pandas Boilerplate", "url": "boilerplate.txt", "icon": "python"}]},
+  { "name": "Python in the browser",
+    "bookmark": "python_browser",
+    "content": [
+      { "name": "Pyodide REPL", "url": "https://pyodide.org/en/stable/console.html", "icon": "python"},
+      { "name": "Python Anywhere", "url": "http://pythonanywhere.com", "icon": "python_anywhere"},
+      { "name": "PyBox", "url": "https://py-box.netlify.app/", "icon": "pybox"},
+      { "name": "JupyterLite", "url": "https://bart-r-willems.github.io/jupyterlite", "icon": "jupyterlite"}]},
   { "name": "Python Training",
     "bookmark": "python_training",
     "content": [
