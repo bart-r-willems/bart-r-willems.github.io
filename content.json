@@ -201,11 +201,19 @@
     "content": [
       { "name": "Brother 2070N Laser Printer", "url": "http://192.168.1.51/", "icon": "brother"},
       { "name": "Synology DS414 NAS", "url": "https://192.168.4.60:5001/", "icon": "synology"}]},
+  { "name": "Abilities Thrive",
+    "bookmark": "abilities",
+    "content": [
+      { "name": "Dashboard", "url": "https://abilities-thrive.ghost.io/ghost/#/dashboard", "icon": "ghost"},
+      { "name": "Site", "url": "https://abilities-thrive.ghost.io/ghost/#/site", "icon": "ghost"},
+      { "name": "Stripe", "url": "https://dashboard.stripe.com/dashboard", "icon": "stripe"}
+    ]},
   { "name": "Finance",
     "bookmark": "finance",
     "content": [
       { "name": "Bank of America", "url": "https://www.bankofamerica.com/", "icon": "boa"},
       { "name": "Valley National Bank", "url": "https://www.valley.com/sign-in/personal-small-business-banking", "icon": "valleynational"},
+      { "name": "Kearny Bank", "url": "https://www.kearnybank.com/", "icon": "kearny"},
       { "name": "Credit Karma", "url": "https://www.creditkarma.com/dashboard", "icon": "credit_karma"},
       { "name": "Experian Credit Monitoring", "url": "https://portal.experianidworks.com/login", "icon": "experian"},
       { "name": "Paypal", "url": "http://www.paypal.com", "icon": "paypal"},
