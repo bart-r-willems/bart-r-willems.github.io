@@ -9,9 +9,10 @@ COLCOUNT = 4
 def main():
     print('INDEX.HTML')
     create('content.json', 'index.html', 'Bart\'s Internet Start Page')
-    print('NOOKMARKS.HTML')
+    print('BOOKMARKS.HTML')
     create('bookmarks.json', 'bookmarks.html', 'Bookmarks')
-    # create('work.json', 'work.html', 'Maersk startpage for the home')
+    print('JOBS.HTML')
+    create('jobs.json', 'jobs.html', 'Bookmarks')
 
 def get_ip():
     '''Return ip address of this computer'''

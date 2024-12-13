@@ -1,0 +1,29 @@
+[ { "name": "Contracting",
+    "bookmark": "contracting",
+    "content": [
+      { "name": "Robert Half", "url": "https://online.roberthalf.com/s/login?ec=302", "icon": "roberthalf"},
+      { "name": "Harnham", "url": "https://www.harnham.com/", "icon": "harnham"},
+      { "name": "Insight Global", "url": "https://jobs.insightglobal.com/", "icon": "insightglobal"},
+      { "name": "KForce", "url": "https://www.kforce.com/", "icon": "kforce"},
+      { "name": "Akkodis", "url": "https://www.akkodis.com/", "icon": "akkodis"},
+      { "name": "Michael Page", "url": "https://www.michaelpage.com/mypage/dashboard", "icon": "michaelpage"},
+      { "name": "Judge Group", "url": "https://www.judge.com/jobs/", "icon": "judgegroup"},
+      { "name": "Experis", "url": "https://www.experis.com/en/candidate/dashboard", "icon": "experis"},
+      { "name": "LHH", "url": "https://www.lhh.com/us/en/?hf=137359583&type=0", "icon": "lhh"},
+      { "name": "Job Diva", "url": "https://www1.jobdiva.com/portal/", "icon": "jobdiva"},
+      { "name": "Tek Systems", "url": "https://www.teksystems.com/en/", "icon": "teksystems"},
+      { "name": "Kelly Services", "url": "https://www.mykelly.com/", "icon": "kelly"}]},
+  { "name": "Search",
+    "bookmark": "search",
+    "content": [
+      { "name": "Dice", "url": "https://www.dice.com/home/home-feed", "icon": "dice"},
+      { "name": "Indeed", "url": "https://www.indeed.com/?from=gnav-homepage", "icon": "indeed"},
+      { "name": "Monster", "url": "https://www.monster.com/profile/detail", "icon": "monster"},
+      { "name": "Ziprecruiter", "url": "https://www.ziprecruiter.com/jobseeker/home", "icon": "ziprecruiter"},
+      { "name": "LinkedIn Jobsearch", "url": "https://www.linkedin.com/jobs/", "icon": "linkedin"}]},
+  { "name": "Staffing",
+    "bookmark": "staffing",
+    "content": [
+      { "name": "Express Staffing", "url": "https://workforce.expresspros.com/account", "icon": "express"},
+      { "name": "Manpowe", "url": "https://www.manpower.com/en/for-job-seekers", "icon": "manpower"}]}
+]
