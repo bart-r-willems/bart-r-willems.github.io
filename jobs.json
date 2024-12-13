@@ -21,9 +21,27 @@
       { "name": "Monster", "url": "https://www.monster.com/profile/detail", "icon": "monster"},
       { "name": "Ziprecruiter", "url": "https://www.ziprecruiter.com/jobseeker/home", "icon": "ziprecruiter"},
       { "name": "LinkedIn Jobsearch", "url": "https://www.linkedin.com/jobs/", "icon": "linkedin"}]},
+  { "name": "Portals",
+    "bookmark": "portals",
+    "content": [
+      { "name": "Maersk", "url": "https://www.maersk.com/careers/vacancies?continent=_NAMR&category&country=United%20States%20of%20America&searchText&limit=24", "icon": "maersk"},
+      { "name": "ADP", "url": "https://jobs.adp.com/en/jobs/?search=&mylocation=Florham+Park%2C+NJ%2C+USA&origin=global&lat=40.787878&lng=-74.3882072", "icon": "adp"},
+      { "name": "GAF", "url": "https://gafsgi.wd5.myworkdayjobs.com/en-US/GAF_Careers?locations=a39ee9d4640201d322fa754e2601872a&locations=0576ffeaeb70104fab754620ba362c82", "icon": "gaf"},
+      { "name": "Stryker", "url": "https://careers.stryker.com/jobs?location_name=Hasbrouck%20Heights%2C%20NJ%2C%20USA&location_type=2", "icon": "stryker"},
+      { "name": "Valley Bank", "url": "https://recruiting.adp.com/srccar/public/RTI.home?c=2169307&d=ProCCExternal&country=USA&state=NJ", "icon": "valley"},
+      { "name": "Kearny Bank", "url": "https://www.kearnybank.com/careers#", "icon": "kearny"},
+      { "name": "S&amp;P Global", "url": "https://careers.spglobal.com/jobs?page=1&lat=40.8643&lng=-74.0707&radiusUnit=MILES&radius=25&sortBy=posted_date&descending=true", "icon": "s_and_p"},
+      { "name": "Too good to go", "url": "https://www.toogoodtogo.com/careers?country=USA&city=New+York&page=1", "icon": "toogoodtogo"}
+    ]},
   { "name": "Staffing",
     "bookmark": "staffing",
     "content": [
       { "name": "Express Staffing", "url": "https://workforce.expresspros.com/account", "icon": "express"},
-      { "name": "Manpowe", "url": "https://www.manpower.com/en/for-job-seekers", "icon": "manpower"}]}
+      { "name": "Manpowe", "url": "https://www.manpower.com/en/search?page=1&latitude=40.8642&longitude=-74.07401&place=Hasbrouck+Heights,+NJ+07604,+USA", "icon": "manpower"},
+      { "name": "Randstad", "url": "https://www.randstadusa.com/jobs/zip-07604/mi-25/", "icon": "randstad"}]},
+  { "name": "Unemployed",
+    "bookmark": "unemployment",
+    "content": [
+      { "name": "Randstad Risesmart", "url": "https://apps.risesmart.com/secure/profile", "icon": "randstad"},
+      { "name": "Unemployment dashboard", "url": "https://unemployment.nj.gov/claim/success?applicationId=57d61f4e-8e43-465c-85af-ea36770c614e&employment_id=new", "icon": "newjersey"}]}
 ]
