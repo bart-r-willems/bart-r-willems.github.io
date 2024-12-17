@@ -12,7 +12,9 @@ def main():
     print('BOOKMARKS.HTML')
     create('bookmarks.json', 'bookmarks.html', 'Bookmarks')
     print('JOBS.HTML')
-    create('jobs.json', 'jobs.html', 'Bookmarks')
+    create('jobs.json', 'jobs.html', 'Job search')
+    print('CHESS.HTML')
+    create('chess.json', 'chess.html', 'Chess sites')
 
 def get_ip():
     '''Return ip address of this computer'''
