@@ -30,10 +30,23 @@
       { "name": "Stryker", "url": "https://careers.stryker.com/jobs?location_name=Hasbrouck%20Heights%2C%20NJ%2C%20USA&location_type=2", "icon": "stryker"},
       { "name": "Valley Bank", "url": "https://recruiting.adp.com/srccar/public/RTI.home?c=2169307&d=ProCCExternal&country=USA&state=NJ", "icon": "valley"},
       { "name": "Kearny Bank", "url": "https://www.kearnybank.com/careers#", "icon": "kearny"},
-      { "name": "Bergen County", "url": "https://www.co.bergen.nj.us/employment-at-the-county", "icon": "bergen_county"},
-      { "name": "Hasbrouck Heights", "url": "https://hasbrouck-heightsnj.org/pages/2023-dpw-job-listings", "icon": "bergen_county"},
       { "name": "S&amp;P Global", "url": "https://careers.spglobal.com/jobs?page=1&lat=40.8643&lng=-74.0707&radiusUnit=MILES&radius=25&sortBy=posted_date&descending=true", "icon": "s_and_p"},
-      { "name": "Too good to go", "url": "https://www.toogoodtogo.com/careers?country=USA&city=New+York&page=1", "icon": "toogoodtogo"}
+      { "name": "Hackensack Hospital", "url": "https://jobs.hackensackmeridianhealth.org/search-jobs/07604%2C%20Hasbrouck%20Heights%2C%20NJ/748/4/6252001-5101760-5095598-5098878/40x8623/-74x0756/50/2?pc=07604", "icon": "default"},
+      { "name": "Holy Name Hospital", "url": "https://careers.holyname.org/search/jobs?q=&location=teaneck", "icon": "holyname"},
+      { "name": "Quest Diagnostics", "url": "https://careers.questdiagnostics.com/search-jobs/Secaucus%2C%20NJ/38852/4/6252001-5101760-5099357-5104508-5104504/40x78955/-74x05653/50/2", "icon": "quest"}
+    ]},
+  { "name": "Local government",
+    "bookmark": "govt",
+    "content": [
+      { "name": "Bergen County", "url": "https://www.co.bergen.nj.us/employment-at-the-county", "icon": "bergen_county"},
+      { "name": "Passaic County", "url": "https://www.passaiccountynj.org/departments/human-resources/county-job-opportunities", "icon": "passaic_county"},
+      { "name": "Hasbrouck Heights", "url": "https://hasbrouck-heightsnj.org/pages/2023-dpw-job-listings", "icon": "hasbrouckheights"},
+      { "name": "Lodi", "url": "https://www.lodi-nj.org/p/employment", "icon": "lodi"},
+      { "name": "Hackensack", "url": "https://www.hackensack.org/personnel-insurance/", "icon": "hackensack"},
+      { "name": "Rutherford", "url": "https://www.rutherfordboronj.com/government/employment-bids/", "icon": "rutherford"},
+      { "name": "Garfield", "url": "https://www.garfieldnj.org/Notices/", "icon": "garfield"},
+      { "name": "Passaic", "url": "https://nj-passaic.civicplus.com/161/Personnel-Office", "icon": "passaic"},
+      { "name": "Patterson", "url": "https://www.primepoint.net/Recruitment/#/PATERC/home", "icon": "patterson"}
     ]},
   { "name": "Staffing",
     "bookmark": "staffing",
