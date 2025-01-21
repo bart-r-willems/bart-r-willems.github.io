@@ -41,7 +41,7 @@
   { "name": "Local government",
     "bookmark": "govt",
     "content": [
-      { "name": "NJ League of Muni's", "url": "https://www.njlm.org/jobs.aspx", "icon": "njlm"},
+      { "name": "NJ League of Municipalities", "url": "https://www.njlm.org/jobs.aspx", "icon": "njlm"},
       { "name": "Bergen County", "url": "https://www.co.bergen.nj.us/employment-at-the-county", "icon": "bergen_county"},
       { "name": "Passaic County", "url": "https://www.passaiccountynj.org/departments/human-resources/county-job-opportunities", "icon": "passaic_county"},
       { "name": "Hasbrouck Heights", "url": "https://hasbrouck-heightsnj.org/pages/2023-dpw-job-listings", "icon": "hasbrouckheights"},
