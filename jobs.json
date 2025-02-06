@@ -16,7 +16,7 @@
   { "name": "Search",
     "bookmark": "search",
     "content": [
-      { "name": "Applypass", "url": "https://app.applypass.com", "icon": "applypas"},
+      { "name": "Applypass", "url": "https://app.applypass.com", "icon": "applypass"},
       { "name": "Dice", "url": "https://www.dice.com/home/home-feed", "icon": "dice"},
       { "name": "Indeed", "url": "https://www.indeed.com/?from=gnav-homepage", "icon": "indeed"},
       { "name": "Monster", "url": "https://www.monster.com/profile/detail", "icon": "monster"},
