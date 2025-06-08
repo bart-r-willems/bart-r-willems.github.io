@@ -82,6 +82,7 @@
       { "name": "Generation Laces", "url": "https://www.generationlaces.com/", "icon": "genlaces"},
       { "name": "Ebay", "url": "https://www.ebay.com", "icon": "ebay"},
       { "name": "eBooks.com", "url": "https://www.ebooks.com/en-us/", "icon": "ebooks"},
+      { "name": "AbeBooks", "url": "https://www.abebooks.com/", "icon": "abebooks"},
       { "name": "van der Veen", "url": "https://thedutchstore.com", "icon": "vanderveen"},
       { "name": "Chewy", "url": "https://www.chewy.com", "icon": "chewy"},
       { "name": "Microcenter", "url": "https://www.microcenter.com", "icon": "microcenter"},
