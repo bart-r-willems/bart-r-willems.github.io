@@ -179,6 +179,7 @@
     "content": [
       { "name": "Chess.com", "url": "https://www.chess.com/home", "icon": "chesscom"},
       { "name": "lichess.org", "url": "https://lichess.org", "icon": "lichess"},
+      { "name": "Chess Tempo", "url": "https://www.chesstempo.com/", "icon": "chesstempo"},
       { "name": "Chessly", "url": "https://chessly.com/dashboard", "icon": "chessly"},
       { "name": "More links", "url": "chess.html", "icon": "default"}]},
   { "name": "Weather and Traffic",
