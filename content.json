@@ -102,7 +102,7 @@
       { "name": "Netflix", "url": "https://netflix.com", "icon": "netflix"},
       { "name": "Disney+", "url": "https://disneyplus.com", "icon": "disney_plus_32"},
       { "name": "Calibre", "url": "http://192.168.4.81:8080/#library_id=eBooks&panel=book_list", "icon": "calibre"},
-      { "name": "Videos", "url": "http://192.168.4.206/tv_series.html", "icon": "video"},
+      { "name": "Videos", "url": "http://192.168.4.206/video", "icon": "video"},
       { "name": "Spotify", "url": "https://open.spotify.com/?", "icon": "spotify"},      
       { "name": "Domestika", "url": "https://www.domestika.org", "icon": "domestika"}]},
   { "name": "Stationary",
@@ -225,5 +225,6 @@
       { "name": "MyChart", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login?", "icon": "mychart"},
       { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "libreview"},
       { "name": "GLP-1 Plotter", "url": "https://glp1plotter.com/", "icon": "glp1"},
-      { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "ganj"}]}
+      { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "ganj"},
+	  { "name": "Podiatrist Portal", "url": "https://www.onpatient.com/appointments/", "icon": "onpatient"}]}
 ]
