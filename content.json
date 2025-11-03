@@ -15,7 +15,7 @@
   { "name": "Tools",
     "bookmark": "tools",
     "content": [
-      { "name": "Passwords", "url": "https://passwordsgenerator.net/?length=16&symbols=1&numbers=1&lowercase=1&uppercase=1&similar=1&ambiguous=1&client=1&autoselect=0", "icon": "pwdgen"},
+      { "name": "Passwords", "url": "https://passwords-generator.org", "icon": "pwdgen"},
       { "name": "Markdown Converter", "url": "https://www.rich-text-to-markdown.com/", "icon": "markdown"},      
       { "name": "File hashes", "url": "https://emn178.github.io/online-tools/", "icon": "tools"},
       { "name": "Fav Icon Extractor", "url": "https://webutility.io/favicon-extractor", "icon": "webutilities"},
