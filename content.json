@@ -234,9 +234,11 @@
     "content": [
       { "name": "Horizon Blue Cross", "url": "https://www.horizonblue.com/", "icon": "blueshield_bluecross"},
       { "name": "CVS Pharmacy Dashboard", "url": "https://www.cvs.com/pharmacy/v3/dashboard", "icon": "cvs"},
-      { "name": "MyChart", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login?", "icon": "mychart"},
+      { "name": "MyChart (Bart)", "url": "https://mychart.rwjbh.org/MyChart/Authentication/Login", "icon": "mychart"},
+      { "name": "MyChart (Dakota)", "url": "https://epicmychart.optum.com/MyChart/Authentication/Login", "icon": "mychart"},
       { "name": "Libreview", "url": "https://www.libreview.com/", "icon": "libreview"},
       { "name": "GLP-1 Plotter", "url": "https://glp1plotter.com/", "icon": "glp1"},
       { "name": "GANJ Portal", "url": "https://mycw30.eclinicalweb.com/portal3040/jsp/100mp/login_otp.jsp", "icon": "ganj"},
 	  { "name": "Podiatrist Portal", "url": "https://www.onpatient.com/appointments/", "icon": "onpatient"}]}
 ]
+
