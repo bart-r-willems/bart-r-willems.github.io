@@ -197,7 +197,7 @@
     "content": [
       { "name": "National Weather Service", "url": "http://forecast.weather.gov/MapClick.php?lat=40.8651&lon=-74.075", "icon": "noaa"},
       { "name": "Weather Spark", "url": "https://weatherspark.com/forecasts/noaa/USA/NJ/Hasbrouck+Heights", "icon": "weatherspark"},
-      { "name": "CBS Traffic Alerts", "url": "http://newyork.cbslocal.com/traffic", "icon": "cbs"},
+      { "name": "NJ Traffic", "url": "https://511nj.org/home", "icon": "cbs"},
       { "name": "NJ Transit", "url": "http://www.njtransit.com/", "icon": "njtransit"}]},
   { "name": "Home network",
     "bookmark": "network",
