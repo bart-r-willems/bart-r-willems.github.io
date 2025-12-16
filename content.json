@@ -24,6 +24,13 @@
       { "name": "Email on deck", "url": "https://www.emailondeck.com/", "icon": "email_on_deck"},
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Keyboard shortcuts", "url": "https://www.key-shortcut.com/en", "icon": "key-shortcut"}]},
+  { "name": "AI Overlords",
+    "bookmark": "ai",
+    "content": [
+      { "name": "Copilot", "url": "https://copilot.microsoft.com", "icon": "copilot"},
+      { "name": "Claude", "url": "https://claude.ai", "icon": "claude"},
+      { "name": "Gemini", "url": "https://gemini.google.com", "icon": "gemini"},
+      { "name": "Chat GPT", "url": "https://chatgpt.com", "icon": "chatgpt"}]},
   { "name": "News",
     "bookmark": "news",
     "content": [
@@ -215,7 +222,6 @@
     "bookmark": "finance",
     "content": [
       { "name": "Bank of America", "url": "https://www.bankofamerica.com/", "icon": "boa"},
-      { "name": "Valley National Bank", "url": "https://www.valley.com/sign-in/personal-small-business-banking", "icon": "valleynational"},
       { "name": "Kearny Bank", "url": "https://www.kearnybank.com/", "icon": "kearny"},
       { "name": "Credit Karma", "url": "https://www.creditkarma.com/dashboard", "icon": "credit_karma"},
       { "name": "Experian Credit Monitoring", "url": "https://portal.experianidworks.com/login", "icon": "experian"},
