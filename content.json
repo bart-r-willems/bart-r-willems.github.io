@@ -97,6 +97,7 @@
       { "name": "Chewy", "url": "https://www.chewy.com", "icon": "chewy"},
       { "name": "Microcenter", "url": "https://www.microcenter.com", "icon": "microcenter"},
       { "name": "Republic of Tea", "url": "https://www.republicoftea.com/", "icon": "republic_of_tea"},
+      { "name": "Steven Smith Teamakers", "url": "https://www.smithtea.com", "icon": "smith-tea"},
       { "name": "Harney &amp; Sons Fine Teas", "url": "https://www.harney.com/", "icon": "harney"}]},
   { "name": "Entertainment",
     "bookmark": "entertainment",
