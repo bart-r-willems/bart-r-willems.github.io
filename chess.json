@@ -25,6 +25,9 @@
     "bookmark": "collections",
     "content": [
       { "name": "Shane Chateauneuf Collection", "url": "https://mychesscollection.com/", "icon": "official_staunton"},
-      { "name": "Holger Lange Collection", "url": "https://www.chess-collection.de/", "icon": "official_staunton"}
+      { "name": "Holger Lange Collection", "url": "https://www.chess-collection.de/", "icon": "official_staunton"},
+      { "name": "Schaakmuseum NL", "url": "https://www.schaak-museum.nl", "icon": "official_staunton"},
+      { "name": "Chess museum.com", "url": "http://www.chess-museum.com", "icon": "official_staunton"},
+      { "name": "Schaakstukkenmuseum Rotterdam", "url": "https://www.euwe.nl/schaakstukkenmuseum.htm", "icon": "official_staunton"}
   ]}
 ]
