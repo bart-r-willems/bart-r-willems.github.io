@@ -200,7 +200,7 @@
       { "name": "Chessly", "url": "https://chessly.com/dashboard", "icon": "chessly"},
       { "name": "USCF", "url": "https://new.uschess.org", "icon": "uscf"},
       { "name": "Rules", "url": "https://new.uschess.org/sites/default/files/media/documents/us-chess-rule-book-online-2026.pdf", "icon": "official_staunton"},
-      { "name": "Personal database", "url": "http://cloudserver.chessbase.com/NTE3ODAxMjE=/replay.html", "icon": "chessbase"},
+      { "name": "Personal database", "url": "https://mygames.chessbase.com", "icon": "chessbase"},
       { "name": "Chessbase", "url": "https://www.chessbase.com", "icon": "chessbase"},
       { "name": "More links", "url": "chess.html", "icon": "default"}]},
   { "name": "Weather and Traffic",
