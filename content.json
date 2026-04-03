@@ -15,7 +15,7 @@
   { "name": "Tools",
     "bookmark": "tools",
     "content": [
-      { "name": "Passwords", "url": "https://passwords-generator.org", "icon": "pwdgen"},
+      { "name": "Passwords", "url": "https://passwords-generator.org/words", "icon": "pwdgen"},
       { "name": "Markdown Converter", "url": "https://www.rich-text-to-markdown.com/", "icon": "markdown"},      
       { "name": "File hashes", "url": "https://emn178.github.io/online-tools/", "icon": "tools"},
       { "name": "Fav Icon Extractor", "url": "https://webutility.io/favicon-extractor", "icon": "webutilities"},
@@ -202,6 +202,7 @@
       { "name": "Rules", "url": "https://new.uschess.org/sites/default/files/media/documents/us-chess-rule-book-online-2026.pdf", "icon": "official_staunton"},
       { "name": "Personal database", "url": "https://mygames.chessbase.com", "icon": "chessbase"},
       { "name": "Chessbase", "url": "https://www.chessbase.com", "icon": "chessbase"},
+      { "name": "Chess clock", "url": "https://chessconnecthq.github.io/chessconnect-web/chess-clock.html?v=2", "icon": "station_clock"},
       { "name": "More links", "url": "chess.html", "icon": "default"}]},
   { "name": "Weather and Traffic",
     "bookmark": "traffic",
@@ -209,7 +210,8 @@
       { "name": "National Weather Service", "url": "http://forecast.weather.gov/MapClick.php?lat=40.8651&lon=-74.075", "icon": "noaa"},
       { "name": "Weather Spark", "url": "https://weatherspark.com/forecasts/noaa/USA/NJ/Hasbrouck+Heights", "icon": "weatherspark"},
       { "name": "NJ Traffic", "url": "https://511nj.org/home", "icon": "cbs"},
-      { "name": "NJ Transit", "url": "http://www.njtransit.com/", "icon": "njtransit"}]},
+      { "name": "NJ Transit", "url": "http://www.njtransit.com/", "icon": "njtransit"},
+      { "name": "Access Link", "url": "https://accesslink.njtransit.com/", "icon": "njtransit"}]},
   { "name": "Home network",
     "bookmark": "network",
     "content": [
