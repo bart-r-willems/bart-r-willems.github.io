@@ -22,6 +22,7 @@
       { "name": "Basic Text Editor", "url": "editor.html", "icon": "editor"},
       { "name": "Online LaTeX Equation Editor", "url": "https://www.codecogs.com/latex/eqneditor.php", "icon": "latex_eq_edit"},
       { "name": "Email on deck", "url": "https://www.emailondeck.com/", "icon": "email_on_deck"},
+      {"name": "Internet Speed Test", "url": "https://www.speedtest.net/", "icon": "speedtest"},
       { "name": "Alt numpad keystrokes", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Keyboard shortcuts", "url": "https://www.key-shortcut.com/en", "icon": "key-shortcut"}]},
   { "name": "AI Overlords",
@@ -155,7 +156,7 @@
   { "name": "Reference",
     "bookmark": "ref",
     "content": [
-    { "name": "Quote of the Day", "url": "https://www.brainyquote.com/quote_of_the_day", "icon": "brainyquote"},
+      { "name": "Quote of the Day", "url": "https://www.brainyquote.com/quote_of_the_day", "icon": "brainyquote"},
       { "name": "Alt Numpad Keys", "url": "diacretics.html", "icon": "keyboard"},
       { "name": "Facebook Emoji Codes", "url": "http://www.symbols-n-emoticons.com/p/facebook-emoticons-list.html", "icon": "emoji"},
       { "name": "CIA World Factbook", "url": "https://www.cia.gov/the-world-factbook/", "icon": "cia"},
@@ -194,8 +195,8 @@
   { "name": "Chess",
     "bookmark":"chess",
     "content": [
-      { "name": "Chess.com", "url": "https://www.chess.com/home", "icon": "chesscom"},
       { "name": "lichess.org", "url": "https://lichess.org", "icon": "lichess"},
+      { "name": "Chess.com", "url": "https://www.chess.com/home", "icon": "chesscom"},
       { "name": "Chess Tempo", "url": "https://www.chesstempo.com/", "icon": "chesstempo"},
       { "name": "Chessly", "url": "https://chessly.com/dashboard", "icon": "chessly"},
       { "name": "USCF", "url": "https://new.uschess.org", "icon": "uscf"},
