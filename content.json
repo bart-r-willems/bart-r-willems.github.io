@@ -194,7 +194,9 @@
       { "name": "Tango", "url": "https://www.linkedin.com/games/tango", "icon": "tango"},
       { "name": "Queens", "url": "https://www.linkedin.com/games/queens", "icon": "queens"},
       { "name": "Zip", "url": "https://www.linkedin.com/games/zip", "icon": "zip-game"},
-      { "name": "Mini Sudoku", "url": "https://www.linkedin.com/games/mini-sudoku/", "icon": "mini-sudoku"}]},
+      { "name": "Mini Sudoku", "url": "https://www.linkedin.com/games/mini-sudoku", "icon": "mini-sudoku"},
+      { "name": "Patches", "url": "https://www.linkedin.com/games/patches", "icon": "patches"},
+      { "name": "Wend", "url": "https://www.linkedin.com/games/wend", "icon": "wend"}]},
   { "name": "Chess",
     "bookmark":"chess",
     "content": [
