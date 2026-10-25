@@ -210,6 +210,8 @@
       { "name": "Chess clock", "url": "https://chessconnecthq.github.io/chessconnect-web/chess-clock.html?v=2", "icon": "station_clock"},
       { "name": "Chessbase cloud", "url": "https://mygames.chessbase.com", "icon": "chessbase"},
       { "name": "Chessbase", "url": "https://www.chessbase.com", "icon": "chessbase"},
+      { "name": "GSL Schedule", "url": "https://onedrive.live.com/:x:/g/personal/25688481ff29cd1a/IQBLVcnjT-DXSonMeIs1cb86AUEERsDNrlxmQukoT9RFHB8?rtime=2D9bDRUy30g&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy8yNTY4ODQ4MWZmMjljZDFhL0lRQkxWY25qVC1EWFNvbk1lSXMxY2I4NkFVRUVSc0ROcmx4bVF1a29UOVJGSEI4P2U9ZkxyN1ZQ", "icon": "USCF"},
+      { "name": "GSL Rosters", "url": "https://onedrive.live.com/:x:/g/personal/25688481FF29CD1A/IQBvczcwddnyRq_PkgO9oYFuAWvXTvkTlrxFsIstqXtz_z8?resid=25688481FF29CD1A!s3037736fd97546f2afcf9203bda1816e&ithint=file%2Cxlsx&e=lmPyad&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy8yNTY4ODQ4MWZmMjljZDFhL0lRQnZjemN3ZGRueVJxX1BrZ085b1lGdUFXdlhUdmtUbHJ4RnNJc3RxWHR6X3o4P2U9bG1QeWFk", "icon": "USCF"},
       { "name": "More links", "url": "chess.html", "icon": "default"}]},
   { "name": "Weather and Traffic",
     "bookmark": "traffic",
